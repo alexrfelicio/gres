@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class ControllerB : MonoBehaviour
 {
-    [SerializeField] Player mPlayer;
-    [SerializeField] Enemy[] enemies;
+    [SerializeField] PlayerB mPlayer;
+    [SerializeField] EnemyB[] enemies;
 
     private bool mIsMoving = false;
 
@@ -91,7 +91,7 @@ public class ControllerB : MonoBehaviour
         }
 
     }
-
+   
     private bool Moving()
     {
         return (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.S)
