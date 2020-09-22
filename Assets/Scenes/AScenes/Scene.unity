@@ -685,7 +685,7 @@ GameObject:
   - component: {fileID: 999349697}
   - component: {fileID: 999349696}
   m_Layer: 0
-  m_Name: Collectables
+  m_Name: Interactables
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1018,6 +1018,18 @@ Transform:
   m_Father: {fileID: 765189926}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1622978631 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6755436795940395898, guid: 9734da712ce87b84cb24ab49a64c0449,
+    type: 3}
+  m_PrefabInstance: {fileID: 1821962689}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49cbc0ded4b15444fbba2418c49f40f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1691411215 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6755436795940395898, guid: 9734da712ce87b84cb24ab49a64c0449,
@@ -2190,12 +2202,12 @@ PrefabInstance:
     - target: {fileID: 1588034587535280162, guid: cd4ad722ca9d18e44afa5e165cc8d408,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.987402
+      value: -4
       objectReference: {fileID: 0}
     - target: {fileID: 1588034587535280162, guid: cd4ad722ca9d18e44afa5e165cc8d408,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.033761024
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1588034587535280162, guid: cd4ad722ca9d18e44afa5e165cc8d408,
         type: 3}
@@ -2394,11 +2406,17 @@ PrefabInstance:
         type: 3}
       propertyPath: enemies.Array.data[1]
       value: 
+      objectReference: {fileID: 1622978631}
+    - target: {fileID: 8740514432749251098, guid: 5ae60ea4b45bbd846bc3fc4655b2f447,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8740514432749251099, guid: 5ae60ea4b45bbd846bc3fc4655b2f447,
         type: 3}
       propertyPath: m_Name
       value: WorldController
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7540529830987279193, guid: 5ae60ea4b45bbd846bc3fc4655b2f447, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 5ae60ea4b45bbd846bc3fc4655b2f447, type: 3}
