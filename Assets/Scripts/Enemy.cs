@@ -8,9 +8,19 @@ public class Enemy : MonoBehaviour
     [SerializeField] bool mRepeatMovement;
     private int mCurrentWaypoint = 0;
     private bool mForward = true;
+    private Vector3 mDestination;
+    private float mSpeed = 3f;
 
+    private void Start() {
+        mDestination = transform.position;
+    }
 
-    public Vector3 GetDestination() {
+    private void Update() {
+        transform.position =
+            Vector3.MoveTowards(transform.position, mDestination, mSpeed * Time.deltaTime);
+    }
+
+    public void SetDestination() {
         int max = mWaypoints.transform.childCount;
 
         Debug.Log("mCurrentWaypoint: " + mCurrentWaypoint);
@@ -36,6 +46,6 @@ public class Enemy : MonoBehaviour
             mCurrentWaypoint++;
         }
         
-        return mWaypoints.transform.GetChild(mCurrentWaypoint).transform.position;
+        mDestination = mWaypoints.transform.GetChild(mCurrentWaypoint).transform.position;
     }
 }

@@ -24,7 +24,7 @@ public class Controller : MonoBehaviour {
 
     // Update is called once per frame
     private void Update() {
-        if (Moving()) {
+        if (Moving() && PlayerMoved(mPlayer.transform.position)) {
             float xPos = mPlayer.transform.position.x;
             float yPos = mPlayer.transform.position.y;
  
@@ -38,13 +38,13 @@ public class Controller : MonoBehaviour {
                 mDestination = new Vector3(xPos + 1, yPos + 0.5f, mPlayer.transform.position.z);
             }
 
+            
             if (mPlayer.AllowedToMove()) {
-                mPlayer.transform.position = mDestination;
+                mPlayer.SetDestination(mDestination);
             }
 
             for (int i = 0; i < enemies.Length; i++) {
-                Vector3 destination = enemies[i].GetDestination();
-                enemies[i].transform.position = destination;
+                enemies[i].SetDestination();
             }
         }
 
@@ -76,5 +76,9 @@ public class Controller : MonoBehaviour {
     private bool Moving() {
         return (Input.GetKeyDown(KeyCode.Keypad1) || Input.GetKeyDown(KeyCode.Keypad3)
             || Input.GetKeyDown(KeyCode.Keypad7) || Input.GetKeyDown(KeyCode.Keypad9));
+    }
+
+    private bool PlayerMoved(Vector3 currentPosition) {
+        return (Vector3.Distance(currentPosition, mDestination) < 0.1f);
     }
 }
