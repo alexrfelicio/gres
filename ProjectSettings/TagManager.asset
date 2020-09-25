@@ -14,12 +14,12 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Background
+  - Terrain
+  - Water Flow
+  - Collectables
+  - Interactables
+  - SceneUI
   - 
   - 
   - 
@@ -41,4 +41,25 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 488958981
+    locked: 0
+  - name: Terrain
+    uniqueID: 3311316671
+    locked: 0
+  - name: Water Flow
+    uniqueID: 47791271
+    locked: 0
+  - name: Collectables
+    uniqueID: 250354195
+    locked: 0
+  - name: Interactables
+    uniqueID: 3745094481
+    locked: 0
+  - name: Entities
+    uniqueID: 1191941487
+    locked: 0
+  - name: SceneUI
+    uniqueID: 3499093463
     locked: 0
