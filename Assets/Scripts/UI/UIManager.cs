@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour {
     [SerializeField] Text scoreText;
     [SerializeField] Text batteryText;
     [SerializeField] Text loseText;
+    [SerializeField] GameObject itemDetail;
 
     private int currentScore = 0;
 
@@ -24,10 +24,26 @@ public class UIManager : MonoBehaviour {
 
     public void LoseGame() {
         loseText.gameObject.SetActive(true);
-        Invoke("ResetGame", 3f);
+        StartCoroutine(RestartLevel());
     }
 
-    private void ResetGame() {
-        SceneManager.LoadScene(0);
+    public void ShowItemDetail(Sprite image, string artifact) {
+        var imageObj = itemDetail.transform.Find("Artifact Image");
+        var textObj = itemDetail.transform.Find("Artifact Panel").Find("Artifact Text");
+        imageObj.GetComponent<Image>().sprite = image;
+        textObj.GetComponent<Text>().text = LangResolver.Instance.GetTextByKey(artifact);
+        itemDetail.SetActive(true);
+        StartCoroutine(RemoveItemDetail());
     }
+
+    IEnumerator RestartLevel() {
+        yield return new WaitForSeconds(3);
+        FindObjectOfType<ScenesManager>().ResetLevel();
+    }
+
+    IEnumerator RemoveItemDetail() {
+        yield return new WaitForSeconds(3);
+        itemDetail.SetActive(false);
+    }
+
 }

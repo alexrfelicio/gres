@@ -1,0 +1,7 @@
+start=Jogar
+quit=Sair
+options=Opções
+lang=Idioma
+default=Padrão
+back=Voltar
+art_christ=Uma foto do Cristo Redentor! Essa estátua, que retrata Jesus Cristo, ficava a mais de 709 metros acima do mar, no topo do morro do Corcovado. Sua construção data de 1930. Sem dúvidas uma das, nem tão novas assim, sete maravilhas do mundo.

@@ -17,10 +17,10 @@ TagManager:
   - Background
   - Terrain
   - Water Flow
+  - Hazard
   - Collectables
   - Interactables
   - SceneUI
-  - 
   - 
   - 
   - 
@@ -50,6 +50,9 @@ TagManager:
     locked: 0
   - name: Water Flow
     uniqueID: 47791271
+    locked: 0
+  - name: Hazard
+    uniqueID: 1686168011
     locked: 0
   - name: Collectables
     uniqueID: 250354195

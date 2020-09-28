@@ -12,10 +12,10 @@ public class Player : MonoBehaviour {
     private Vector2 input;
     private UIManager uiManager;
     
-
     private bool isDead;
     private bool isMoving;
-    private int battery = 20;
+    private int battery = 50;
+    private int step = 0;
     private float moveSpeed = 2f;
 
     private void Start() {
@@ -54,11 +54,13 @@ public class Player : MonoBehaviour {
                 IsMoveable(targetPos);
                 StartCoroutine(Move(targetPos));
                 controller.MoveEnemies();
+                controller.checkFires(step);
             }
         }
     }
 
     IEnumerator Move(Vector3 targetPos) {
+        step++;
         isMoving = true;
         animator.SetBool("IsMoving", isMoving);
         while ((targetPos - transform.position).sqrMagnitude > Mathf.Epsilon) {
