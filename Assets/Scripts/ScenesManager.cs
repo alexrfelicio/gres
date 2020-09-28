@@ -28,6 +28,14 @@ public class ScenesManager : MonoBehaviour{
         SceneManager.LoadScene("Level 1");
     }
 
+    public void SetPortuguse() {
+        LangResolver.Instance.SetSystemLanguage(SystemLanguage.Portuguese);
+    }
+
+    public void SetEnglish() {
+        LangResolver.Instance.SetSystemLanguage(SystemLanguage.English);
+    }
+
     public void QuitGame() {
         Application.Quit();
     }

@@ -21,15 +21,6 @@ public class LangResolver : MonoBehaviour {
         }
     }
 
-    public void SetPortuguese() {
-        Debug.Log("wtf?");
-        Instance.SetSystemLanguage(SystemLanguage.Portuguese);
-    }
-
-    public void SetEnglish() {
-        Instance.SetSystemLanguage(SystemLanguage.English);
-    }
-
     public void SetSystemLanguage(SystemLanguage lang) {
         systemLanguage = lang;
         ReadProperties();

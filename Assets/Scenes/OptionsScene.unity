@@ -564,8 +564,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2071510500}
-        m_TargetAssemblyTypeName: LangResolver, Assembly-CSharp
+      - m_Target: {fileID: 1734138875}
+        m_TargetAssemblyTypeName: ScenesManager, Assembly-CSharp
         m_MethodName: SetEnglish
         m_Mode: 1
         m_Arguments:
@@ -818,9 +818,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2071510500}
-        m_TargetAssemblyTypeName: LangResolver, Assembly-CSharp
-        m_MethodName: SetPortuguese
+      - m_Target: {fileID: 1734138875}
+        m_TargetAssemblyTypeName: ScenesManager, Assembly-CSharp
+        m_MethodName: SetPortuguse
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1829,18 +1829,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 83f31c1778320cf4e8e4a23d47f93c49, type: 3}
---- !u!114 &2071510500 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1040072675239156234, guid: 83f31c1778320cf4e8e4a23d47f93c49,
-    type: 3}
-  m_PrefabInstance: {fileID: 2071510499}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d761f1e2ab75a0448ea29cf97d5f0fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2096278214
 GameObject:
   m_ObjectHideFlags: 0
