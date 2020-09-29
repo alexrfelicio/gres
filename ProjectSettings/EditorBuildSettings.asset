@@ -12,6 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/OptionsScene.unity
     guid: 21b32f695a4351a48b1084719ca8ce91
   - enabled: 1
-    path: Assets/Scenes/BKP/Level 1.unity
-    guid: bd8a00652784b2d4191d87fa753793b3
+    path: Assets/Scenes/Level 1.unity
+    guid: 25bbbfd016f782349a25216c5d0fad1c
   m_configObjects: {}

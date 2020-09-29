@@ -11,6 +11,7 @@ public class Player : MonoBehaviour {
 
     private Animator animator;
     private Vector2 input;
+    private Vector2 waterMove;
     private UIManager uiManager;
     
     private bool isDead;
@@ -18,8 +19,10 @@ public class Player : MonoBehaviour {
     private int battery = 50;
     private int step = 0;
     private float moveSpeed = 2f;
+    private float waterTime = 2f;
 
     private void Start() {
+        waterMove = Vector2.zero;
         animator = GetComponent<Animator>();
         uiManager = FindObjectOfType<UIManager>();
         uiManager.SetBattery(battery);
@@ -52,17 +55,31 @@ public class Player : MonoBehaviour {
                 targetPos.x += input.x;
                 targetPos.y += verticalMovement;
 
-                if (!IsWalkable(targetPos)) return;
+                //if (!IsWalkable(targetPos)) return;
                 IsMoveable(targetPos);
                 StartCoroutine(Move(targetPos));
+                ManageBatteryAndSteps();
                 controller.MoveEnemies();
                 controller.CheckFires(step);
+                waterMove = Vector2.zero;
+            } else if (waterMove != Vector2.zero && waterTime <= 0) {
+                var targetPos = waterMove;
+                //if (!IsWalkable(targetPos)) return;
+                StartCoroutine(Move(targetPos));
+                waterMove = Vector2.zero;
+                waterTime = 2f;
             }
         }
+        waterTime -= Time.deltaTime;
+    }
+
+    private void ManageBatteryAndSteps() {
+        step++;
+        battery--;
+        uiManager.SetBattery(battery);
     }
 
     IEnumerator Move(Vector3 targetPos) {
-        step++;
         isMoving = true;
         animator.SetBool("IsMoving", isMoving);
         while ((targetPos - transform.position).sqrMagnitude > Mathf.Epsilon) {
@@ -71,10 +88,12 @@ public class Player : MonoBehaviour {
             yield return null;
         }
         transform.position = targetPos;
-        battery--;
-        uiManager.SetBattery(battery);
         isMoving = false;
         animator.SetBool("IsMoving", isMoving);
+    }
+
+    public void SetWaterMove(Vector2 move) {
+        waterMove = move;
     }
 
     private void IsMoveable(Vector3 target) {

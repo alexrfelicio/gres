@@ -7,9 +7,11 @@ public class EnvironmentController : MonoBehaviour {
 
     [Header("Environment Objects")]
     [SerializeField] GameObject fireObj;
+    [SerializeField] GameObject mudObj;
     [Header("Environment Configs")]
     [SerializeField] private Enemy[] enemies;
     [SerializeField] private Fires[] fires;
+    [SerializeField] private Mud[] muds;
 
     private int currentPlayerMovement = 0;
     private List<int> fireSpawns = new List<int>();
@@ -41,6 +43,24 @@ public class EnvironmentController : MonoBehaviour {
     public void CheckFires(int move) {
         if (fireSpawns.Contains(move)) {
             Transform firesObject = transform.Find("Fires");
+            for (int i = 0; i < fires.Length; i++) {
+                if (fires[i].move == move) {
+                    Instantiate(
+                        fireObj,
+                        new Vector2(fires[i].posX, fires[i].posY),
+                        transform.rotation,
+                        firesObject);
+                }
+            }
+            fireSpawnTime = 3f;
+        }
+        fireSpawns.Remove(move);
+        currentPlayerMovement = move;
+    }
+
+    public void CheckMuds(int move) {
+        if (fireSpawns.Contains(move)) {
+            Transform firesObject = transform.Find("Muds");
             for (int i = 0; i < fires.Length; i++) {
                 if (fires[i].move == move) {
                     Instantiate(
