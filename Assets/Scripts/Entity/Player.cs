@@ -7,6 +7,7 @@ public class Player : MonoBehaviour {
 
     [SerializeField] EnvironmentController controller;
     [SerializeField] LayerMask interactable;
+    [SerializeField] LayerMask walkable;
 
     private Animator animator;
     private Vector2 input;
@@ -51,10 +52,11 @@ public class Player : MonoBehaviour {
                 targetPos.x += input.x;
                 targetPos.y += verticalMovement;
 
+                if (!IsWalkable(targetPos)) return;
                 IsMoveable(targetPos);
                 StartCoroutine(Move(targetPos));
                 controller.MoveEnemies();
-                controller.checkFires(step);
+                controller.CheckFires(step);
             }
         }
     }
@@ -79,6 +81,10 @@ public class Player : MonoBehaviour {
         if (Physics2D.OverlapCircle(target, 0.3f, interactable) != null) {
             battery--;
         }
+    }
+
+    private bool IsWalkable(Vector3 target) {
+        return (Physics2D.OverlapCircle(target, 0.3f, walkable) != null) ? true : false;
     }
 
     public void Dead() {

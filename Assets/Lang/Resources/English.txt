@@ -5,3 +5,6 @@ lang=Language
 default=Default
 back=Back
 art_christ=A photo of Christ the Redeemer! This statue, which depicts Jesus Christ, was more than 709 meters above the sea, at the top of the Corcovado hill. Its construction dates back to 1930. Undoubtedly one of the, not so new, seven wonders of the world.
+art_cd=
+art_crown=
+art_coffee=

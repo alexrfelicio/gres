@@ -2795,37 +2795,7 @@ MonoBehaviour:
   fireObj: {fileID: 9071372494191363372, guid: faf87eb34621c0643a1b9261f3f7a3e3, type: 3}
   enemies:
   - {fileID: 753929048}
-  fires:
-  - move: 1
-    posX: -3.5
-    posY: -0.5
-  - move: 1
-    posX: 0.5
-    posY: -4.5
-  - move: 1
-    posX: 11.5
-    posY: -1.5
-  - move: 10
-    posX: -1.5
-    posY: -0.5
-  - move: 15
-    posX: -2.5
-    posY: -1.5
-  - move: 15
-    posX: -4.5
-    posY: -1.5
-  - move: 19
-    posX: 1.5
-    posY: -3.5
-  - move: 19
-    posX: 11.5
-    posY: 0.5
-  - move: 30
-    posX: 11.5
-    posY: 0.5
-  - move: 49
-    posX: 10.5
-    posY: 0.5
+  fires: []
 --- !u!1 &2042634580
 GameObject:
   m_ObjectHideFlags: 0

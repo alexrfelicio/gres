@@ -5,3 +5,6 @@ lang=Idioma
 default=Padrão
 back=Voltar
 art_christ=Uma foto do Cristo Redentor! Essa estátua, que retrata Jesus Cristo, ficava a mais de 709 metros acima do mar, no topo do morro do Corcovado. Sua construção data de 1930. Sem dúvidas uma das, nem tão novas assim, sete maravilhas do mundo.
+art_cd=Nossa, um CD. Será que ainda funciona? Esse ritmo chama-se Bossa Nova. De origem brasileira, é um ritmo que conquistou o mundo em uma época na qual sequer existiam CD’s.
+art_crown=Essa coroa pertence a um tipo diferente de rainha. Afinal, o Brasil era uma República Federativa, não uma monarquia. No Rio de Janeiro, as Rainhas de Bateria animavam os carnavais, desfilando com suas escolas de samba pela avenida. O Carnaval era um grande festival, repleto de cores, fantasias, música e dança. Me pergunto a qual escola de samba essa coroa pertenceu um dia...
+art_coffee=As maiores plantações de café provavelmente ficavam mais ao Sul do país. Mas aqui no Sudeste, onde o relógio não parava, certamente as pessoas eram tão movidas a café, do mesmo modo que sou movido à energia elétrica. Esse era um polo tecnológico do país
