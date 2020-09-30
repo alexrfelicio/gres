@@ -16,6 +16,7 @@ public class Player : MonoBehaviour {
     
     private bool isDead;
     private bool isMoving;
+    private bool isWaterMoving;
     private int battery = 50;
     private int step = 0;
     private float moveSpeed = 2f;
@@ -55,16 +56,16 @@ public class Player : MonoBehaviour {
                 targetPos.x += input.x;
                 targetPos.y += verticalMovement;
 
-                //if (!IsWalkable(targetPos)) return;
+                if (!IsWalkable(targetPos)) return;
                 IsMoveable(targetPos);
                 StartCoroutine(Move(targetPos));
                 ManageBatteryAndSteps();
                 controller.MoveEnemies();
                 controller.CheckFires(step);
                 waterMove = Vector2.zero;
-            } else if (waterMove != Vector2.zero && waterTime <= 0) {
+            } else if (waterMove != Vector2.zero && (waterTime <= 0 || isWaterMoving)) {
                 var targetPos = waterMove;
-                //if (!IsWalkable(targetPos)) return;
+                if (!IsWalkable(targetPos)) return;
                 StartCoroutine(Move(targetPos));
                 waterMove = Vector2.zero;
                 waterTime = 2f;
@@ -89,11 +90,13 @@ public class Player : MonoBehaviour {
         }
         transform.position = targetPos;
         isMoving = false;
+        isWaterMoving = false;
         animator.SetBool("IsMoving", isMoving);
     }
 
     public void SetWaterMove(Vector2 move) {
         waterMove = move;
+        isWaterMoving = (!isWaterMoving) ? true : false;
     }
 
     private void IsMoveable(Vector3 target) {
@@ -103,7 +106,7 @@ public class Player : MonoBehaviour {
     }
 
     private bool IsWalkable(Vector3 target) {
-        return (Physics2D.OverlapCircle(target, 0.3f, walkable) != null) ? true : false;
+        return (Physics2D.OverlapCircle(target, 0.01f, walkable) != null) ? true : false;
     }
 
     public void Dead() {

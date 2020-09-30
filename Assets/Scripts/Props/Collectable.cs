@@ -9,9 +9,11 @@ public class Collectable : MonoBehaviour {
     [SerializeField] string artifact;
 
     private void OnTriggerEnter2D(Collider2D collision) {
-        FindObjectOfType<UIManager>().SetScore(value);
-        FindObjectOfType<UIManager>().ShowItemDetail(sprite, artifact);
-        Destroy(gameObject);
+        if (collision.tag == "Player") {
+            FindObjectOfType<UIManager>().SetScore(value);
+            FindObjectOfType<UIManager>().ShowItemDetail(sprite, artifact);
+            Destroy(gameObject);
+        }
     }
 
 }
