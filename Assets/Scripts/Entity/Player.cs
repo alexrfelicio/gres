@@ -31,7 +31,7 @@ public class Player : MonoBehaviour {
 
     private void Update() {
         if (battery == 0 || isDead) {
-            uiManager.LoseGame();
+            StartCoroutine(Death());
             return;
         }
         if (!isMoving) {
@@ -92,6 +92,13 @@ public class Player : MonoBehaviour {
         isMoving = false;
         isWaterMoving = false;
         animator.SetBool("IsMoving", isMoving);
+    }
+
+    IEnumerator Death() {
+        animator.SetBool("IsDead", isDead);
+        yield return new WaitForSeconds(1f);
+        animator.SetBool("IsDead", false);
+        uiManager.LoseGame();
     }
 
     public void SetWaterMove(Vector2 move) {
