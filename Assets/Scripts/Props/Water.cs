@@ -6,10 +6,14 @@ public class Water : MonoBehaviour {
     private enum Directions {None, Left, Right, Top, Bottom }
     [SerializeField] Directions direction;
 
+    private bool haveCrate = false;
+
     private void OnTriggerEnter2D(Collider2D collision) {
-        if (collision.tag == "Player") {
+        if (collision.tag == "Player" && !haveCrate) {
             Vector2 target = GetNextPosition();
             collision.GetComponent<Player>().SetWaterMove(target);
+        } else if (collision.tag == "Crate") {
+            haveCrate = true;
         }
     }
 

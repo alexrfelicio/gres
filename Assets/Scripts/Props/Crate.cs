@@ -5,6 +5,7 @@ using UnityEngine;
 public class Crate : MonoBehaviour {
 
     private Vector2 destination;
+    private bool onWater = false;
     private float speed = 3f;
 
     private void Start() {
@@ -16,22 +17,26 @@ public class Crate : MonoBehaviour {
     }
 
     private void OnTriggerEnter2D(Collider2D collision) {
-        HitDirection direction = ReturnDirection(collision.gameObject, gameObject);
-        switch(direction) {
-            case HitDirection.Right:
-                destination = new Vector2(transform.position.x - 1, transform.position.y);
-                break;
-            case HitDirection.Left:
-                destination = new Vector2(transform.position.x + 1, transform.position.y);
-                break;
-            case HitDirection.Top:
-                destination = new Vector2(transform.position.x, transform.position.y - 1);
-                break;
-            case HitDirection.Bottom:
-                destination = new Vector2(transform.position.x, transform.position.y + 1);
-                break;
-            default:
-                break;
+        if (collision.tag == "Player" && !onWater) {
+            HitDirection direction = ReturnDirection(collision.gameObject, gameObject);
+            switch (direction) {
+                case HitDirection.Right:
+                    destination = new Vector2(transform.position.x - 1, transform.position.y);
+                    break;
+                case HitDirection.Left:
+                    destination = new Vector2(transform.position.x + 1, transform.position.y);
+                    break;
+                case HitDirection.Top:
+                    destination = new Vector2(transform.position.x, transform.position.y - 1);
+                    break;
+                case HitDirection.Bottom:
+                    destination = new Vector2(transform.position.x, transform.position.y + 1);
+                    break;
+                default:
+                    break;
+            }
+        } else if (collision.tag == "Water") {
+            onWater = true;
         }
     }
 

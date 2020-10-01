@@ -26,10 +26,12 @@ public class Player : MonoBehaviour {
         waterMove = Vector2.zero;
         animator = GetComponent<Animator>();
         uiManager = FindObjectOfType<UIManager>();
-        uiManager.SetBattery(battery);
     }
 
     private void Update() {
+        if (Input.GetKeyDown(KeyCode.Escape)) {
+            FindObjectOfType<UIManager>().ShowQuitModal();
+        }
         if (battery == 0 || isDead) {
             StartCoroutine(Death());
             return;
@@ -77,7 +79,6 @@ public class Player : MonoBehaviour {
     private void ManageBatteryAndSteps() {
         step++;
         battery--;
-        uiManager.SetBattery(battery);
     }
 
     IEnumerator Move(Vector3 targetPos) {
@@ -98,7 +99,6 @@ public class Player : MonoBehaviour {
         animator.SetBool("IsDead", isDead);
         yield return new WaitForSeconds(1f);
         animator.SetBool("IsDead", false);
-        uiManager.LoseGame();
     }
 
     public void SetWaterMove(Vector2 move) {
