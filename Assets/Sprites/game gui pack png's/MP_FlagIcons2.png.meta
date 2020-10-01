@@ -1,0 +1,2962 @@
+fileFormatVersion: 2
+guid: 2bd1e5bf2f2dfca4b849f1e8356cf8e8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6276053340765415104
+    second: MP_FlagIcons2_0
+  - first:
+      213: -8931192241900807501
+    second: MP_FlagIcons2_1
+  - first:
+      213: 2570969889410557579
+    second: MP_FlagIcons2_2
+  - first:
+      213: -2972902662437929534
+    second: MP_FlagIcons2_3
+  - first:
+      213: 6084036761806046751
+    second: MP_FlagIcons2_4
+  - first:
+      213: 5722886760367973133
+    second: MP_FlagIcons2_5
+  - first:
+      213: 1165864704184622880
+    second: MP_FlagIcons2_6
+  - first:
+      213: 2949628250799555801
+    second: MP_FlagIcons2_7
+  - first:
+      213: -1414217992942366607
+    second: MP_FlagIcons2_8
+  - first:
+      213: -166690822043708392
+    second: MP_FlagIcons2_9
+  - first:
+      213: -6061622938849383535
+    second: MP_FlagIcons2_10
+  - first:
+      213: 1853435004171221514
+    second: MP_FlagIcons2_11
+  - first:
+      213: -4043712401379560544
+    second: MP_FlagIcons2_12
+  - first:
+      213: 1509123203925618223
+    second: MP_FlagIcons2_13
+  - first:
+      213: 505697939041999082
+    second: MP_FlagIcons2_14
+  - first:
+      213: 992365861260268036
+    second: MP_FlagIcons2_15
+  - first:
+      213: -8785864900128801580
+    second: MP_FlagIcons2_16
+  - first:
+      213: 8590771335809174563
+    second: MP_FlagIcons2_17
+  - first:
+      213: 7479581696653845821
+    second: MP_FlagIcons2_18
+  - first:
+      213: 1754011571123070962
+    second: MP_FlagIcons2_19
+  - first:
+      213: -6175194675336953978
+    second: MP_FlagIcons2_20
+  - first:
+      213: 7031734956586262389
+    second: MP_FlagIcons2_21
+  - first:
+      213: 613085953532140393
+    second: MP_FlagIcons2_22
+  - first:
+      213: 1195919832183684934
+    second: MP_FlagIcons2_23
+  - first:
+      213: -2592547169483870170
+    second: MP_FlagIcons2_24
+  - first:
+      213: -2041417264699583469
+    second: MP_FlagIcons2_25
+  - first:
+      213: -2187548585041402543
+    second: MP_FlagIcons2_26
+  - first:
+      213: -4521511158960669996
+    second: MP_FlagIcons2_27
+  - first:
+      213: 1310847416876505820
+    second: MP_FlagIcons2_28
+  - first:
+      213: -4859882909516732057
+    second: MP_FlagIcons2_29
+  - first:
+      213: 6299961450160869235
+    second: MP_FlagIcons2_30
+  - first:
+      213: -4291459647022412571
+    second: MP_FlagIcons2_31
+  - first:
+      213: -5847694238929099988
+    second: MP_FlagIcons2_32
+  - first:
+      213: -5783642906154044862
+    second: MP_FlagIcons2_33
+  - first:
+      213: -249568227110765570
+    second: MP_FlagIcons2_34
+  - first:
+      213: -8525818571231535467
+    second: MP_FlagIcons2_35
+  - first:
+      213: 1561752350390279771
+    second: MP_FlagIcons2_36
+  - first:
+      213: -3250541273792824289
+    second: MP_FlagIcons2_37
+  - first:
+      213: -7539772582652258537
+    second: MP_FlagIcons2_38
+  - first:
+      213: -1269833807519016975
+    second: MP_FlagIcons2_39
+  - first:
+      213: 4301850985660882850
+    second: MP_FlagIcons2_40
+  - first:
+      213: -996670003918129315
+    second: MP_FlagIcons2_41
+  - first:
+      213: -1637623421470470984
+    second: MP_FlagIcons2_42
+  - first:
+      213: -6815007284875112147
+    second: MP_FlagIcons2_43
+  - first:
+      213: 6869340846081457414
+    second: MP_FlagIcons2_44
+  - first:
+      213: 638447919103750173
+    second: MP_FlagIcons2_45
+  - first:
+      213: -552043523455071908
+    second: MP_FlagIcons2_46
+  - first:
+      213: -6575705877680477397
+    second: MP_FlagIcons2_47
+  - first:
+      213: -5445109380578647014
+    second: MP_FlagIcons2_48
+  - first:
+      213: -2400119975308890571
+    second: MP_FlagIcons2_49
+  - first:
+      213: 2362389819373216739
+    second: MP_FlagIcons2_50
+  - first:
+      213: -6528888828439587828
+    second: MP_FlagIcons2_51
+  - first:
+      213: -7138344501726437499
+    second: MP_FlagIcons2_52
+  - first:
+      213: 8517219053219990133
+    second: MP_FlagIcons2_53
+  - first:
+      213: 3152301149780588973
+    second: MP_FlagIcons2_54
+  - first:
+      213: 882915843250607200
+    second: MP_FlagIcons2_55
+  - first:
+      213: -8880794733282998343
+    second: MP_FlagIcons2_56
+  - first:
+      213: -7511025089116561600
+    second: MP_FlagIcons2_57
+  - first:
+      213: 4790813743600813023
+    second: MP_FlagIcons2_58
+  - first:
+      213: -7022791999377993460
+    second: MP_FlagIcons2_59
+  - first:
+      213: -6851326936699549629
+    second: MP_FlagIcons2_60
+  - first:
+      213: -6162267132751852726
+    second: MP_FlagIcons2_61
+  - first:
+      213: 140508219496153070
+    second: MP_FlagIcons2_62
+  - first:
+      213: 3586574044241335860
+    second: MP_FlagIcons2_63
+  - first:
+      213: -4109475626659752018
+    second: MP_FlagIcons2_64
+  - first:
+      213: -2802279338033698451
+    second: MP_FlagIcons2_65
+  - first:
+      213: -7229821229875437010
+    second: MP_FlagIcons2_66
+  - first:
+      213: -836956345341191118
+    second: MP_FlagIcons2_67
+  - first:
+      213: -5067032470966385968
+    second: MP_FlagIcons2_68
+  - first:
+      213: 305762645219532623
+    second: MP_FlagIcons2_69
+  - first:
+      213: -4599919298966708832
+    second: MP_FlagIcons2_70
+  - first:
+      213: -1323574260455469621
+    second: MP_FlagIcons2_71
+  - first:
+      213: 5519613062013544375
+    second: MP_FlagIcons2_72
+  - first:
+      213: 5233717887334779690
+    second: MP_FlagIcons2_73
+  - first:
+      213: -2054171719719554847
+    second: MP_FlagIcons2_74
+  - first:
+      213: -4710536058776344082
+    second: MP_FlagIcons2_75
+  - first:
+      213: -5547618844637183465
+    second: MP_FlagIcons2_76
+  - first:
+      213: 9007233119477228481
+    second: MP_FlagIcons2_77
+  - first:
+      213: -1067380305318660138
+    second: MP_FlagIcons2_78
+  - first:
+      213: -6336536062925042940
+    second: MP_FlagIcons2_79
+  - first:
+      213: 3019765191975939252
+    second: MP_FlagIcons2_80
+  - first:
+      213: -8468085412670260733
+    second: MP_FlagIcons2_81
+  - first:
+      213: -2970795376617005046
+    second: MP_FlagIcons2_82
+  - first:
+      213: -1798848527621028706
+    second: MP_FlagIcons2_83
+  - first:
+      213: 8811548479398658317
+    second: MP_FlagIcons2_84
+  - first:
+      213: -7574359176664451604
+    second: MP_FlagIcons2_85
+  - first:
+      213: 3267974262823948262
+    second: MP_FlagIcons2_86
+  - first:
+      213: 4414160260623860407
+    second: MP_FlagIcons2_87
+  - first:
+      213: -5502254890642033950
+    second: MP_FlagIcons2_88
+  - first:
+      213: -187901838463037296
+    second: MP_FlagIcons2_89
+  - first:
+      213: 2361264436287050124
+    second: MP_FlagIcons2_90
+  - first:
+      213: -7346978219581797876
+    second: MP_FlagIcons2_91
+  - first:
+      213: 5600588253760010329
+    second: MP_FlagIcons2_92
+  - first:
+      213: 147513655527658115
+    second: MP_FlagIcons2_93
+  - first:
+      213: 7521343096071707765
+    second: MP_FlagIcons2_94
+  - first:
+      213: -580388958581502339
+    second: MP_FlagIcons2_95
+  - first:
+      213: -6266059827777639788
+    second: MP_FlagIcons2_96
+  - first:
+      213: 1837900772496388201
+    second: MP_FlagIcons2_97
+  - first:
+      213: -3089775098062045896
+    second: MP_FlagIcons2_98
+  - first:
+      213: 785471071208487163
+    second: MP_FlagIcons2_99
+  - first:
+      213: 5358636908727125480
+    second: MP_FlagIcons2_100
+  - first:
+      213: 2260043365482397288
+    second: MP_FlagIcons2_101
+  - first:
+      213: 5667105999271536428
+    second: MP_FlagIcons2_102
+  - first:
+      213: -351117726942350644
+    second: MP_FlagIcons2_103
+  - first:
+      213: 4331432047435278596
+    second: MP_FlagIcons2_104
+  - first:
+      213: 7674984338367359575
+    second: MP_FlagIcons2_105
+  - first:
+      213: -7224060550059085504
+    second: MP_FlagIcons2_106
+  - first:
+      213: 1444108389954588823
+    second: MP_FlagIcons2_107
+  - first:
+      213: -1288043308244896112
+    second: MP_FlagIcons2_108
+  - first:
+      213: -726566375149744866
+    second: MP_FlagIcons2_109
+  - first:
+      213: -7207387571669172682
+    second: MP_FlagIcons2_110
+  - first:
+      213: 554725973418138399
+    second: MP_FlagIcons2_111
+  - first:
+      213: -1238762718594849766
+    second: MP_FlagIcons2_112
+  - first:
+      213: -7299623520116499734
+    second: MP_FlagIcons2_113
+  - first:
+      213: -3525769263765894302
+    second: MP_FlagIcons2_114
+  - first:
+      213: -3197713234426262903
+    second: MP_FlagIcons2_115
+  - first:
+      213: -8823048794402111289
+    second: MP_FlagIcons2_116
+  - first:
+      213: -352443449789570954
+    second: MP_FlagIcons2_117
+  - first:
+      213: -5527906574990374739
+    second: MP_FlagIcons2_118
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MP_FlagIcons2_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 348
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04916401dbaf6e8a0800000000000000
+      internalID: -6276053340765415104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 348
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ba17c8b9f70e0480800000000000000
+      internalID: -8931192241900807501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_2
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 348
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b86aa8a2e7beda320800000000000000
+      internalID: 2570969889410557579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_3
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 348
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cdf29597c02eb6d0800000000000000
+      internalID: -2972902662437929534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_4
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 348
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f160ed34337de6450800000000000000
+      internalID: 6084036761806046751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_5
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 348
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d03e489ff27cb6f40800000000000000
+      internalID: 5722886760367973133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_6
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 348
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02f171d75cbfd2010800000000000000
+      internalID: 1165864704184622880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_7
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 348
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d44d5c244f2fe820800000000000000
+      internalID: 2949628250799555801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_8
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 348
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17054bf6a30bf5ce0800000000000000
+      internalID: -1414217992942366607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_9
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 348
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81454cc949bcfadf0800000000000000
+      internalID: -166690822043708392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_10
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 348
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19be58f8d0ac0eba0800000000000000
+      internalID: -6061622938849383535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_11
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 348
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0a76edf059b8b910800000000000000
+      internalID: 1853435004171221514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_12
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 348
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a3fde5def8d1e7c0800000000000000
+      internalID: -4043712401379560544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_13
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 348
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2e294cee8b71f410800000000000000
+      internalID: 1509123203925618223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_14
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 348
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae8de34a899940700800000000000000
+      internalID: 505697939041999082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_15
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 348
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40294a73e7795cd00800000000000000
+      internalID: 992365861260268036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_16
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 348
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dcff3f3c66521680800000000000000
+      internalID: -8785864900128801580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_17
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 290
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32c8389930d883770800000000000000
+      internalID: 8590771335809174563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_18
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 290
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d35e091bcefccc760800000000000000
+      internalID: 7479581696653845821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_19
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 290
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f727b41b30875810800000000000000
+      internalID: 1754011571123070962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_20
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 290
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f38ad092d4d4aa0800000000000000
+      internalID: -6175194675336953978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_21
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 290
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57f5502ffadb59160800000000000000
+      internalID: 7031734956586262389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_22
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 290
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96b901d2d6e128800800000000000000
+      internalID: 613085953532140393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_23
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 290
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64f372940c2c89010800000000000000
+      internalID: 1195919832183684934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_24
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 290
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6203873d51c650cd0800000000000000
+      internalID: -2592547169483870170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_25
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 290
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3145b3b40dd6ba3e0800000000000000
+      internalID: -2041417264699583469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_26
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 290
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 155e2bbe62444a1e0800000000000000
+      internalID: -2187548585041402543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_27
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 290
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4da3f229e8d5041c0800000000000000
+      internalID: -4521511158960669996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_28
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 290
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cda99adc7c0113210800000000000000
+      internalID: 1310847416876505820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_29
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 290
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76963481e3a3e8cb0800000000000000
+      internalID: -4859882909516732057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_30
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 290
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f4e7f6f85fd6750800000000000000
+      internalID: 6299961450160869235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_31
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 290
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ec4e4b203ca174c0800000000000000
+      internalID: -4291459647022412571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_32
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 290
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2368857211d8dea0800000000000000
+      internalID: -5847694238929099988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_33
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 290
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 242fafe7b6f5cbfa0800000000000000
+      internalID: -5783642906154044862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_34
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 232
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efbb6db050b598cf0800000000000000
+      internalID: -249568227110765570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_35
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 232
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59ed0526e253ea980800000000000000
+      internalID: -8525818571231535467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_36
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 232
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5ed428fc757ca510800000000000000
+      internalID: 1561752350390279771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_37
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 232
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1c35dffee1c3e2d0800000000000000
+      internalID: -3250541273792824289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_38
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 232
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71758c398c85d5790800000000000000
+      internalID: -7539772582652258537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_39
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 232
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f71c0341e4a06ee0800000000000000
+      internalID: -1269833807519016975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_40
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 232
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2af1bf4edae33bb30800000000000000
+      internalID: 4301850985660882850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_41
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 232
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d573c2a79ed1b22f0800000000000000
+      internalID: -996670003918129315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_42
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 232
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bc8467bc2ef549e0800000000000000
+      internalID: -1637623421470470984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_43
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 232
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d21d15b5bfa3c61a0800000000000000
+      internalID: -6815007284875112147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_44
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 232
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60d34cbaa1dc45f50800000000000000
+      internalID: 6869340846081457414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_45
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 232
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1034c1fff83cd800800000000000000
+      internalID: 638447919103750173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_46
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 232
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c59c7eb175fb658f0800000000000000
+      internalID: -552043523455071908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_47
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 232
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2b286508566eb4a0800000000000000
+      internalID: -6575705877680477397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_48
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 232
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1466772ed51f64b0800000000000000
+      internalID: -5445109380578647014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_49
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 232
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53ee46d499f01bed0800000000000000
+      internalID: -2400119975308890571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_50
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 232
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e36db43605e8c020800000000000000
+      internalID: 2362389819373216739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_51
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 174
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0497dab33ab465a0800000000000000
+      internalID: -6528888828439587828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_52
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 174
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58f9b3a0f718fec90800000000000000
+      internalID: -7138344501726437499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_53
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 174
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57acd5d4a9d333670800000000000000
+      internalID: 8517219053219990133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_54
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 174
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da93ab1b1393fbb20800000000000000
+      internalID: 3152301149780588973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_55
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 174
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0645483184fb04c00800000000000000
+      internalID: 882915843250607200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_56
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 174
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b7c1871e3411c480800000000000000
+      internalID: -8880794733282998343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_57
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 174
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04f19200a7a73c790800000000000000
+      internalID: -7511025089116561600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_58
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 174
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd3c26c87b36c7240800000000000000
+      internalID: 4790813743600813023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_59
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 174
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c019e9982e70a8e90800000000000000
+      internalID: -7022791999377993460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_60
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 174
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34845f173723be0a0800000000000000
+      internalID: -6851326936699549629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_61
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 174
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4bc24d11ba3b7aa0800000000000000
+      internalID: -6162267132751852726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_62
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 174
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef371f2b7f23f100800000000000000
+      internalID: 140508219496153070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_63
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 174
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43614ab371216c130800000000000000
+      internalID: 3586574044241335860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_64
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 174
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea7d1d3c0b538f6c0800000000000000
+      internalID: -4109475626659752018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_65
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 174
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d69a5170acd4c19d0800000000000000
+      internalID: -2802279338033698451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_66
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 174
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2262bb85e38aab90800000000000000
+      internalID: -7229821229875437010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_67
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 174
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23cdd6763a88264f0800000000000000
+      internalID: -836956345341191118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_68
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 116
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d2cdae50d84ea9b0800000000000000
+      internalID: -5067032470966385968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_69
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 116
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4fd4ed71894e3400800000000000000
+      internalID: 305762645219532623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_70
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 116
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ad10add4cdc920c0800000000000000
+      internalID: -4599919298966708832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_71
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 116
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcd83b30938b1ade0800000000000000
+      internalID: -1323574260455469621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_72
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 116
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b76ce2f5da999c40800000000000000
+      internalID: 5519613062013544375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_73
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 116
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2b823960b6e1a840800000000000000
+      internalID: 5233717887334779690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_74
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 116
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e0767254bd1e73e0800000000000000
+      internalID: -2054171719719554847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_75
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 116
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee9a7fa7960d0aeb0800000000000000
+      internalID: -4710536058776344082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_76
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 116
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7124328ad06e203b0800000000000000
+      internalID: -5547618844637183465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_77
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 116
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c3e29fbcce100d70800000000000000
+      internalID: 9007233119477228481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_78
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 116
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d7bb3d7447ef21f0800000000000000
+      internalID: -1067380305318660138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_79
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 116
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40b86eee50a1018a0800000000000000
+      internalID: -6336536062925042940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_80
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 116
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bca0d4517c58e920800000000000000
+      internalID: 3019765191975939252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_81
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 116
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30a3f1ade215b7a80800000000000000
+      internalID: -8468085412670260733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_82
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 116
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a00ee5c485d95c6d0800000000000000
+      internalID: -2970795376617005046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_83
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 116
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e940a6a7bc43907e0800000000000000
+      internalID: -1798848527621028706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_84
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 116
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d01c0bb08a8e84a70800000000000000
+      internalID: 8811548479398658317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_85
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 58
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce5f1b1a57872e690800000000000000
+      internalID: -7574359176664451604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_86
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 58
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ef8dbe074d2a5d20800000000000000
+      internalID: 3267974262823948262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_87
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 58
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b2812cae5f324d30800000000000000
+      internalID: 4414160260623860407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_88
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 58
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e230a3445014a3b0800000000000000
+      internalID: -5502254890642033950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_89
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 58
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09094c10640746df0800000000000000
+      internalID: -187901838463037296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_90
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 58
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8117a98e75e4c020800000000000000
+      internalID: 2361264436287050124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_91
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 58
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0a8b493c3a4a0a90800000000000000
+      internalID: -7346978219581797876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_92
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 58
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9583796f75949bd40800000000000000
+      internalID: 5600588253760010329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_93
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 58
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 382de3d53e21c0200800000000000000
+      internalID: 147513655527658115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_94
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 58
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57cd03332bd216860800000000000000
+      internalID: 7521343096071707765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_95
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 58
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7ec034315b02f7f0800000000000000
+      internalID: -580388958581502339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_96
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 58
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49ae7ff19cb7a09a0800000000000000
+      internalID: -6266059827777639788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_97
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 58
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9603015d309818910800000000000000
+      internalID: 1837900772496388201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_98
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 58
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83df92c2be9ee15d0800000000000000
+      internalID: -3089775098062045896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_99
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 58
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf83ab417cd86ea00800000000000000
+      internalID: 785471071208487163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_100
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 58
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e54af090e3bd5a40800000000000000
+      internalID: 5358636908727125480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_101
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 60
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86e7e8877794d5f10800000000000000
+      internalID: 2260043365482397288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_102
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 0
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c27a01771ea95ae40800000000000000
+      internalID: 5667105999271536428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_103
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 0
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc23243a944902bf0800000000000000
+      internalID: -351117726942350644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_104
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 0
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4096f1c8f765c1c30800000000000000
+      internalID: 4331432047435278596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_105
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 0
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75aa2198795038a60800000000000000
+      internalID: 7674984338367359575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_106
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 0
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 041b0d5543bfebb90800000000000000
+      internalID: -7224060550059085504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_107
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 0
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7909760fde08a0410800000000000000
+      internalID: 1444108389954588823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_108
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 0
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0967ebc7f63ff1ee0800000000000000
+      internalID: -1288043308244896112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_109
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 0
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1dc4773bb7bae5f0800000000000000
+      internalID: -726566375149744866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_110
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 0
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63ef710a0373afb90800000000000000
+      internalID: -7207387571669172682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_111
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 0
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1b55417558c2b700800000000000000
+      internalID: 554725973418138399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_112
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 0
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a142825eed70fcee0800000000000000
+      internalID: -1238762718594849766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_113
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aea9e51651782ba90800000000000000
+      internalID: -7299623520116499734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_114
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 0
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26b4e31f883f11fc0800000000000000
+      internalID: -3525769263765894302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_115
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 0
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98a057861c07f93d0800000000000000
+      internalID: -3197713234426262903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_116
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 0
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c049b53edb3e8580800000000000000
+      internalID: -8823048794402111289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_117
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 0
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67021ebbc8edb1bf0800000000000000
+      internalID: -352443449789570954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP_FlagIcons2_118
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 15
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da80726124ee843b0800000000000000
+      internalID: -5527906574990374739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

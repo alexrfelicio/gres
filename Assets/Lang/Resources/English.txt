@@ -1,3 +1,4 @@
+title=The World That Once Was
 start=Start
 quit=Quit
 options=Options

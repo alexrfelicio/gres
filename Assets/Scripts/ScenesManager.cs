@@ -14,6 +14,13 @@ public class ScenesManager : MonoBehaviour{
         SceneManager.LoadScene(START_SCENE);
     }
 
+    public void BackOptionsScene() {
+        var volume = FindObjectOfType<OptionsController>().GetCurrentVolume();
+        var language = FindObjectOfType<OptionsController>().GetCurrentLanguage();
+        GameSystem.SaveOptionsData(volume, language);
+        SceneManager.LoadScene(START_SCENE);
+    }
+
     public void LoadOptionsScene() {
         SceneManager.LoadScene(OPTIONS_SCENE);
     }
@@ -29,11 +36,15 @@ public class ScenesManager : MonoBehaviour{
     }
 
     public void SetPortuguse() {
+        FindObjectOfType<ButtonManager>().SelectedPTBR();
         LangResolver.Instance.SetSystemLanguage(SystemLanguage.Portuguese);
+        FindObjectOfType<OptionsController>().SetCurrentLanguage(0);
     }
 
     public void SetEnglish() {
+        FindObjectOfType<ButtonManager>().SelectedENUS();
         LangResolver.Instance.SetSystemLanguage(SystemLanguage.English);
+        FindObjectOfType<OptionsController>().SetCurrentLanguage(1);
     }
 
     public void QuitGame() {
