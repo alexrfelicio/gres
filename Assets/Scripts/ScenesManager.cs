@@ -8,16 +8,20 @@ public class ScenesManager : MonoBehaviour{
     private readonly string OPTIONS_SCENE = "OptionsScene";
     private readonly string LEVEL_PREFFIX = "Level ";
 
-    private int currentIndex = 1;
-
     public void LoadStartScene() {
         SceneManager.LoadScene(START_SCENE);
+    }
+
+    public void StartLevel() {
+        string level = LEVEL_PREFFIX + FindObjectOfType<PageSwiper>().GetCurrentLevel();
+        SceneManager.LoadScene(level);        
     }
 
     public void BackOptionsScene() {
         var volume = FindObjectOfType<OptionsController>().GetCurrentVolume();
         var language = FindObjectOfType<OptionsController>().GetCurrentLanguage();
         GameSystem.SaveOptionsData(volume, language);
+        FindObjectOfType<GamePersist>().Load();
         SceneManager.LoadScene(START_SCENE);
     }
 
@@ -25,14 +29,10 @@ public class ScenesManager : MonoBehaviour{
         SceneManager.LoadScene(OPTIONS_SCENE);
     }
 
-    public void LoadLevel() {
-        var level = LEVEL_PREFFIX + currentIndex.ToString();
-        currentIndex++;
-        SceneManager.LoadScene(level);
-    }
+    public void ResetLevel() { }
 
-    public void ResetLevel() {
-        SceneManager.LoadScene("Level 1");
+    public void LoadLevel() {
+        SceneManager.LoadScene("LevelScene");
     }
 
     public void SetPortuguse() {
