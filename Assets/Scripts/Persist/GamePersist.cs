@@ -7,7 +7,7 @@ public class GamePersist : MonoBehaviour {
     public static GamePersist Instance { get; private set; }
     public float volume = 1f;
     public int language = 0;
-    public Dictionary<int, int[]> levels = new Dictionary<int, int[]>();
+    public Dictionary<int, int[]> levels;
 
     private void Awake() {
         if (Instance == null) {
@@ -16,10 +16,12 @@ public class GamePersist : MonoBehaviour {
             Load();
         } else {
             Destroy(gameObject);
+            //Instance.Load();
         }
     }
 
     public void Load() {
+        levels = new Dictionary<int, int[]>();
         var optionsData = GameSystem.LoadOptionsData();
         if (optionsData != null) {
             volume = optionsData.volume;
@@ -41,7 +43,7 @@ public class GamePersist : MonoBehaviour {
 
                 levels[i] = aux;
             } else {
-                levels = null;
+                levels[i] = null;
             }
         }
     }

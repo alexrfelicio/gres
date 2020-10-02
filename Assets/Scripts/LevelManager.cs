@@ -12,19 +12,21 @@ public class LevelManager : MonoBehaviour {
             Color enabled = new Color(1f, 1f, 1f);
             Color disabled = new Color(0.1f, 0.1f, 0.1f);
             for (int i = 1; i <= 5; i++) {
-                int[] data = GamePersist.Instance.levels[i];
-                var scoreText = GetScoreText(i).GetComponent<Text>();
-                scoreText.text = data[0].ToString();
+                if (GamePersist.Instance.levels[i] != null) {
+                    int[] data = GamePersist.Instance.levels[i];
+                    var scoreText = GetScoreText(i).GetComponent<Text>();
+                    scoreText.text = data[0].ToString();
 
-                var artifact1 = GetArtifact(i, 1).GetComponent<Image>();
-                var artifact2 = GetArtifact(i, 2).GetComponent<Image>();
-                var artifact3 = GetArtifact(i, 3).GetComponent<Image>();
-                var artifact4 = GetArtifact(i, 4).GetComponent<Image>();
+                    var artifact1 = GetArtifact(i, 1).GetComponent<Image>();
+                    var artifact2 = GetArtifact(i, 2).GetComponent<Image>();
+                    var artifact3 = GetArtifact(i, 3).GetComponent<Image>();
+                    var artifact4 = GetArtifact(i, 4).GetComponent<Image>();
 
-                artifact1.color = (data[1] == 1) ? enabled : disabled;
-                artifact2.color = (data[2] == 1) ? enabled : disabled;
-                artifact3.color = (data[3] == 1) ? enabled : disabled;
-                artifact4.color = (data[4] == 1) ? enabled : disabled;
+                    artifact1.color = (data[1] == 1) ? enabled : disabled;
+                    artifact2.color = (data[2] == 1) ? enabled : disabled;
+                    artifact3.color = (data[3] == 1) ? enabled : disabled;
+                    artifact4.color = (data[4] == 1) ? enabled : disabled;
+                }
             }
         }
     }

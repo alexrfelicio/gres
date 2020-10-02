@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Collectable : MonoBehaviour {
 
-    [SerializeField] int value = 0;
     [SerializeField] Sprite sprite;
     [SerializeField] string artifactTitle;
     [SerializeField] string artifact;
@@ -12,6 +11,7 @@ public class Collectable : MonoBehaviour {
     private void OnTriggerEnter2D(Collider2D collision) {
         if (collision.tag == "Player") {
             FindObjectOfType<UIManager>().ShowItemDetail(sprite, artifactTitle, artifact);
+            FindObjectOfType<UIManager>().MarkAsFounded(artifact);
             Destroy(gameObject);
         }
     }

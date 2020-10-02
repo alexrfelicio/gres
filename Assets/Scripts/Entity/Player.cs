@@ -17,10 +17,12 @@ public class Player : MonoBehaviour {
     private bool isDead;
     private bool isMoving;
     private bool isWaterMoving;
+    private bool isFinished;
     private int battery = 50;
     private int step = 0;
     private float moveSpeed = 2f;
     private float waterTime = 2f;
+    private Death death;
 
     private void Start() {
         waterMove = Vector2.zero;
@@ -29,13 +31,25 @@ public class Player : MonoBehaviour {
     }
 
     private void Update() {
+        Debug.Log(battery);
         if (Input.GetKeyDown(KeyCode.Escape)) {
             FindObjectOfType<UIManager>().ShowQuitModal();
         }
-        if (battery == 0 || isDead) {
+
+        if (battery == 0) {
+            this.death = global::Death.Battery;
+            isDead = true;
+        }
+
+        if (isDead) {
             StartCoroutine(Death());
             return;
         }
+
+        if (isFinished) {
+            uiManager.ShowWinModal(battery);
+        }
+
         if (!isMoving) {
             input.x = Input.GetAxisRaw("Horizontal");
             input.y = Input.GetAxis("Vertical");
@@ -99,6 +113,7 @@ public class Player : MonoBehaviour {
         animator.SetBool("IsDead", isDead);
         yield return new WaitForSeconds(1f);
         animator.SetBool("IsDead", false);
+        uiManager.ShowGameOverModal(this.death);
     }
 
     public void SetWaterMove(Vector2 move) {
@@ -116,7 +131,13 @@ public class Player : MonoBehaviour {
         return (Physics2D.OverlapCircle(target, 0.01f, walkable) != null) ? true : false;
     }
 
-    public void Dead() {
+    public void Dead(Death death) {
         isDead = true;
+        this.death = death;
     }
+
+    public void Win() {
+        isFinished = true;
+    }
+
 }

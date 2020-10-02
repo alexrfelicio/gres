@@ -6,7 +6,7 @@ public class Fire : MonoBehaviour {
 
     private void OnTriggerEnter2D(Collider2D collision) {
         if (collision.tag == "Player") {
-            collision.GetComponent<Player>().Dead();
+            collision.GetComponent<Player>().Dead(Death.Fire);
         }
     }
 

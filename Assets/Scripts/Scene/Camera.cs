@@ -5,7 +5,7 @@ using UnityEngine;
 public class Camera : MonoBehaviour {
 
     private int cameraMovement = 50;
-    private float speed = 3f;
+    private float speed = 5f;
 
     void Update() {
         if (Input.GetKey(KeyCode.LeftArrow)) {

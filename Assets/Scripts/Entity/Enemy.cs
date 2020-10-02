@@ -12,9 +12,8 @@ public class Enemy : MonoBehaviour
     private float speed = 3f;
 
     private void OnTriggerEnter2D(Collider2D collision) {
-        Debug.Log(collision.tag);
         if (collision.tag == "Player") {
-            collision.GetComponent<Player>().Dead();
+            collision.GetComponent<Player>().Dead(Death.Enemy);
         }
     }
 

@@ -1,7 +1,37 @@
 fileFormatVersion: 2
 guid: 9427a0a0fee7301459c73e518d136546
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 1735321402320416474
+    second: Shop_EnergyBar_0
+  - first:
+      213: -7625663707640821067
+    second: Shop_EnergyBar_1
+  - first:
+      213: -5870738665683971997
+    second: Shop_EnergyBar_2
+  - first:
+      213: -1830186848006062975
+    second: Shop_EnergyBar_3
+  - first:
+      213: -5977958931686297343
+    second: Shop_EnergyBar_4
+  - first:
+      213: 8615767734815286675
+    second: Shop_EnergyBar_5
+  - first:
+      213: 1056142117061993954
+    second: Shop_EnergyBar_6
+  - first:
+      213: -4704646038048576031
+    second: Shop_EnergyBar_7
+  - first:
+      213: -7188596282283317304
+    second: Shop_EnergyBar_8
+  - first:
+      213: 7041857896641357073
+    second: Shop_EnergyBar_9
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +71,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -73,9 +103,231 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Shop_EnergyBar_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 0
+        width: 30
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adee07c0f99151810800000000000000
+      internalID: 1735321402320416474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shop_EnergyBar_1
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 0
+        width: 33
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ba0b79a2433c2690800000000000000
+      internalID: -7625663707640821067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shop_EnergyBar_2
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 0
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36091ceb942f68ea0800000000000000
+      internalID: -5870738665683971997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shop_EnergyBar_3
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1
+        width: 34
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18cb10c22ced996e0800000000000000
+      internalID: -1830186848006062975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shop_EnergyBar_4
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1
+        width: 33
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 101f6f236060a0da0800000000000000
+      internalID: -5977958931686297343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shop_EnergyBar_5
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 6
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 395efe44b1b519770800000000000000
+      internalID: 8615767734815286675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shop_EnergyBar_6
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 6
+        width: 24
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e52fc7e8ab28ae00800000000000000
+      internalID: 1056142117061993954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shop_EnergyBar_7
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 6
+        width: 27
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ed6a2cca5db5beb0800000000000000
+      internalID: -4704646038048576031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shop_EnergyBar_8
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 6
+        width: 27
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c72fc0a4c9fc3c90800000000000000
+      internalID: -7188596282283317304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shop_EnergyBar_9
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 6
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11566189274b9b160800000000000000
+      internalID: 7041857896641357073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
