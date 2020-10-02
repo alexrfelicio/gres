@@ -34,7 +34,6 @@ public class UIManager : MonoBehaviour {
     }
 
     public void ShowItemDetail(Sprite image, string artifactTitle, string artifact) {
-        Time.timeScale = 0f;
         var imageObj = itemDetail.transform.Find("Artifact Image");
         var titleObj = itemDetail.transform.Find("Artifact Title");
         var textObj = itemDetail.transform.Find("Artifact Text");
@@ -49,7 +48,7 @@ public class UIManager : MonoBehaviour {
     }
 
     public void ShowWinModal(int battery) {
-        Time.timeScale = 0f;
+        GamePersist.Instance.PauseGame();
         Color enabled = new Color(1f, 1f, 1f);
         Color disabled = new Color(0.1f, 0.1f, 0.1f);
         int batteryValue = 0;
@@ -95,8 +94,8 @@ public class UIManager : MonoBehaviour {
     }
 
     public void ShowQuitModal() {
+        GamePersist.Instance.PauseGame();
         quitModal.SetActive(true);
-        Time.timeScale = 0f;
     }
 
     public void SetBattery(int amount) {
@@ -113,11 +112,12 @@ public class UIManager : MonoBehaviour {
     }
 
     public void ReturnToLevelSelect() {
+        CloseModal();
         FindObjectOfType<ScenesManager>().LoadLevel();
     }
 
     public void CloseModal() {
-        Time.timeScale = 1f;
+        GamePersist.Instance.ResumeGame();
         itemDetail.SetActive(false);
         gameOverModal.SetActive(false);
         winModal.SetActive(false);

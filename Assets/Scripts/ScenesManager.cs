@@ -13,7 +13,6 @@ public class ScenesManager : MonoBehaviour{
     }
 
     public void StartLevel() {
-        Time.timeScale = 1f;
         string level = LEVEL_PREFFIX + FindObjectOfType<PageSwiper>().GetCurrentLevel();
         SceneManager.LoadScene(level);        
     }
@@ -31,32 +30,30 @@ public class ScenesManager : MonoBehaviour{
     }
 
     public void ResetLevel1() {
+        GamePersist.Instance.ResumeGame();
         SceneManager.LoadScene("Level 1");
-        Time.timeScale = 1f;
     }
 
     public void ResetLevel2() {
+        GamePersist.Instance.ResumeGame();
         SceneManager.LoadScene("Level 2");
-        Time.timeScale = 1f;
     }
 
     public void ResetLevel3() {
+        GamePersist.Instance.ResumeGame();
         SceneManager.LoadScene("Level 3");
-        Time.timeScale = 1f;
     }
 
     public void ResetLevel4() {
+        GamePersist.Instance.ResumeGame();
         SceneManager.LoadScene("Level 4");
-        Time.timeScale = 1f;
     }
 
     public void ResetLevel5() {
         SceneManager.LoadScene("Level 5");
-        Time.timeScale = 1f;
     }
 
     public void LoadLevel() {
-        Time.timeScale = 1f;
         SceneManager.LoadScene("LevelScene");
     }
 

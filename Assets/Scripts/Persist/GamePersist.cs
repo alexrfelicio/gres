@@ -14,9 +14,11 @@ public class GamePersist : MonoBehaviour {
             Instance = this;
             DontDestroyOnLoad(gameObject);
             Load();
+            ResumeGame();
         } else {
             Destroy(gameObject);
-            //Instance.Load();
+            Instance.Load();
+            Instance.ResumeGame();
         }
     }
 
@@ -50,5 +52,13 @@ public class GamePersist : MonoBehaviour {
 
     private int BoolToInt(bool value) {
         return (value) ? 1 : 0;
+    }
+
+    public void PauseGame() {
+        Time.timeScale = 0f;
+    }
+
+    public void ResumeGame() {
+        Time.timeScale = 1f;
     }
 }

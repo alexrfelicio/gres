@@ -9,6 +9,7 @@ public class Water : MonoBehaviour {
     private bool haveCrate = false;
 
     private void OnTriggerEnter2D(Collider2D collision) {
+        Debug.Log(collision);
         if (collision.tag == "Player" && !haveCrate) {
             Vector2 target = GetNextPosition();
             collision.GetComponent<Player>().SetWaterMove(target);

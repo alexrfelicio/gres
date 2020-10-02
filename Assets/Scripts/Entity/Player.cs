@@ -127,8 +127,8 @@ public class Player : MonoBehaviour {
     }
 
     public void SetWaterMove(Vector2 move) {
-        waterMove = move;
         isWaterMoving = (!isWaterMoving) ? true : false;
+        waterMove = move;
     }
 
     private bool IsMoveable(Vector3 target) {
