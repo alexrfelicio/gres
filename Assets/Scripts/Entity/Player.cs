@@ -73,8 +73,16 @@ public class Player : MonoBehaviour {
                 targetPos.x += input.x;
                 targetPos.y += verticalMovement;
 
+                var crateFuturePos = transform.position;
+                crateFuturePos.x += (input.x * 2);
+                crateFuturePos.y += (verticalMovement * 2);
+
                 if (!IsWalkable(targetPos)) return;
-                IsMoveable(targetPos);
+
+                if (IsMoveable(targetPos)) {
+                    if (!IsWalkable(crateFuturePos)) return;
+                    battery--;
+                }
                 StartCoroutine(Move(targetPos));
                 ManageBatteryAndSteps();
                 uiManager.SetBattery(battery);
@@ -123,10 +131,8 @@ public class Player : MonoBehaviour {
         isWaterMoving = (!isWaterMoving) ? true : false;
     }
 
-    private void IsMoveable(Vector3 target) {
-        if (Physics2D.OverlapCircle(target, 0.3f, interactable) != null) {
-            battery--;
-        }
+    private bool IsMoveable(Vector3 target) {
+        return (Physics2D.OverlapCircle(target, 0.3f, interactable) != null);
     }
 
     private bool IsWalkable(Vector3 target) {
