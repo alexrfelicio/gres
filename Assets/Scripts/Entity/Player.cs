@@ -28,6 +28,7 @@ public class Player : MonoBehaviour {
         waterMove = Vector2.zero;
         animator = GetComponent<Animator>();
         uiManager = FindObjectOfType<UIManager>();
+        uiManager.SetBattery(battery);
     }
 
     private void Update() {
@@ -76,6 +77,7 @@ public class Player : MonoBehaviour {
                 IsMoveable(targetPos);
                 StartCoroutine(Move(targetPos));
                 ManageBatteryAndSteps();
+                uiManager.SetBattery(battery);
                 controller.MoveEnemies();
                 controller.CheckFires(step);
                 waterMove = Vector2.zero;

@@ -9,6 +9,7 @@ public class UIManager : MonoBehaviour {
     private const int ALL_ARTIFACTS_SCORE = 250;
 
     [SerializeField] int currentLevel;
+    [SerializeField] Text batteryText;
     [SerializeField] GameObject itemDetail;
     [SerializeField] GameObject gameOverModal;
     [SerializeField] GameObject winModal;
@@ -96,6 +97,10 @@ public class UIManager : MonoBehaviour {
     public void ShowQuitModal() {
         quitModal.SetActive(true);
         Time.timeScale = 0f;
+    }
+
+    public void SetBattery(int amount) {
+        batteryText.text = amount.ToString();
     }
 
     IEnumerator Death(Death death) {

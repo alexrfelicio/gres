@@ -941,7 +941,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6919944078656736415}
         m_TargetAssemblyTypeName: ScenesManager, Assembly-CSharp
-        m_MethodName: LoadOptionsScene
+        m_MethodName: QuitGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

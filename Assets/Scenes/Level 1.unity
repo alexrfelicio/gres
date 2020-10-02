@@ -4259,6 +4259,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d13acca29b7ea84d817dc733e6b788c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1685105448 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4862991454256157363, guid: 7c99baefb87a7e24c9335ab9f3ae8dbe,
+    type: 3}
+  m_PrefabInstance: {fileID: 3090729887513417264}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1723149405
 GameObject:
   m_ObjectHideFlags: 0
@@ -5302,6 +5314,11 @@ PrefabInstance:
       propertyPath: quitModal
       value: 
       objectReference: {fileID: 1927607811445322147}
+    - target: {fileID: 4606502124004565045, guid: 0f319fb9ed8a10d44b380a5049a6536a,
+        type: 3}
+      propertyPath: batteryText
+      value: 
+      objectReference: {fileID: 1685105448}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f319fb9ed8a10d44b380a5049a6536a, type: 3}
 --- !u!1001 &5298659229775837861
