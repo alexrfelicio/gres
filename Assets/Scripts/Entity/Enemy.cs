@@ -32,7 +32,7 @@ public class Enemy : MonoBehaviour
         if (currentWaypoint == max - 1) {
             forward = false;
             if (!repeatMovement) {
-                currentWaypoint = 0;
+                currentWaypoint = -1;
             }
         }
 
