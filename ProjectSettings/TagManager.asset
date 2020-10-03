@@ -24,7 +24,7 @@ TagManager:
   - Collectables
   - Interactables
   - SceneUI
-  - 
+  - Mud
   - 
   - 
   - 
@@ -62,6 +62,9 @@ TagManager:
     locked: 0
   - name: Interactables
     uniqueID: 3745094481
+    locked: 0
+  - name: Mud
+    uniqueID: 1538574863
     locked: 0
   - name: Entities
     uniqueID: 1191941487

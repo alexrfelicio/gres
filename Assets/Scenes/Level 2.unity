@@ -5096,6 +5096,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7705155015069801137, guid: c3a0523799ee01f45a01c013b7f33608,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: ccea3f39f2fc247448d2060e08bc3895, type: 3}
     - target: {fileID: 7705155015069801142, guid: c3a0523799ee01f45a01c013b7f33608,
         type: 3}
       propertyPath: m_Name
@@ -5434,6 +5439,11 @@ PrefabInstance:
       propertyPath: controller
       value: 
       objectReference: {fileID: 2005741880}
+    - target: {fileID: 7269069569273645828, guid: cd4ad722ca9d18e44afa5e165cc8d408,
+        type: 3}
+      propertyPath: mud.m_Bits
+      value: 32768
+      objectReference: {fileID: 0}
     - target: {fileID: 7269069569273645829, guid: cd4ad722ca9d18e44afa5e165cc8d408,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5679,7 +5689,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fireObj: {fileID: 9071372494191363372, guid: faf87eb34621c0643a1b9261f3f7a3e3, type: 3}
-  mudObj: {fileID: 0}
+  fireSFX: {fileID: 8300000, guid: 2e7e628f5cccc924382daa26b95f44a4, type: 3}
   enemies:
   - {fileID: 753929048}
   fires: []

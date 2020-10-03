@@ -14,6 +14,8 @@ public class UIManager : MonoBehaviour {
     [SerializeField] GameObject gameOverModal;
     [SerializeField] GameObject winModal;
     [SerializeField] GameObject quitModal;
+    [SerializeField] AudioClip gameOverSFX;
+    [SerializeField] AudioClip winSFX;
 
     [SerializeField] Sprite fire;
     [SerializeField] Sprite hole;
@@ -23,14 +25,26 @@ public class UIManager : MonoBehaviour {
 
     [SerializeField] Artifacts[] artifacts;
 
+    private int art1;
+    private int art2;
+    private int art3;
+    private int art4;
     private int highestScore = 0;
-    private int currentScore = 0;
     private int artifactsFounded = 0;
+    private float SFXVolume;
 
     private void Awake() {
-        if (GamePersist.Instance.levels != null) {
+        if (GamePersist.Instance.levels[currentLevel] != null) {
             highestScore = GamePersist.Instance.levels[currentLevel][0];
+            art1 = GamePersist.Instance.levels[currentLevel][1];
+            art2 = GamePersist.Instance.levels[currentLevel][2];
+            art3 = GamePersist.Instance.levels[currentLevel][3];
+            art4 = GamePersist.Instance.levels[currentLevel][4];
         }
+    }
+
+    private void Start() {
+        SFXVolume = GamePersist.Instance.sfx;
     }
 
     public void ShowItemDetail(Sprite image, string artifactTitle, string artifact) {
@@ -48,6 +62,8 @@ public class UIManager : MonoBehaviour {
     }
 
     public void ShowWinModal(int battery) {
+        FindObjectOfType<AudioManager>().Stop();
+        AudioSource.PlayClipAtPoint(winSFX, gameOverModal.transform.position, SFXVolume);
         GamePersist.Instance.PauseGame();
         Color enabled = new Color(1f, 1f, 1f);
         Color disabled = new Color(0.1f, 0.1f, 0.1f);
@@ -62,9 +78,7 @@ public class UIManager : MonoBehaviour {
         string batteryText = LangResolver.Instance.GetTextByKey("win_battery");
         string artifactText = LangResolver.Instance.GetTextByKey("win_artifact");
         string allArtifactsText = LangResolver.Instance.GetTextByKey("win_all_artifact");
-        string scoreText = (currentScore > highestScore) ?
-            LangResolver.Instance.GetTextByKey("win_score") :
-            LangResolver.Instance.GetTextByKey("win_high_score");
+        
 
         batteryValue = battery * BATTERY_SCORE;
         batteryText += " " + battery.ToString() + "x" + BATTERY_SCORE.ToString() + " = +" + batteryValue.ToString();
@@ -82,6 +96,9 @@ public class UIManager : MonoBehaviour {
         }
 
         int scoreValue = batteryValue + artifactValue + allArtifactValue;
+        string scoreText = (scoreValue > highestScore) ?
+            LangResolver.Instance.GetTextByKey("win_score") :
+            LangResolver.Instance.GetTextByKey("win_high_score");
         scoreText += " " + scoreValue.ToString();
         totalObj.GetComponent<Text>().text = scoreText;
         for (int i = 0; i < artifacts.Length; i++) {
@@ -90,7 +107,12 @@ public class UIManager : MonoBehaviour {
             artifactSpriteObj.GetComponent<Image>().color = (artifacts[i].found) ? enabled : disabled;
         }
         winModal.SetActive(true);
-        GameSystem.SaveLevelData(currentLevel, scoreValue, artifacts[0].found, artifacts[1].found, artifacts[2].found, artifacts[3].found);
+        scoreValue = (scoreValue > highestScore) ? scoreValue : highestScore;
+        var firstArt = (art1 == 1) ? true : artifacts[0].found;
+        var secondArt = (art2 == 1) ? true : artifacts[1].found;
+        var thirdArt = (art3 == 1) ? true : artifacts[2].found;
+        var fourthArt = (art4 == 1) ? true : artifacts[3].found;
+        GameSystem.SaveLevelData(currentLevel, scoreValue, firstArt, secondArt, thirdArt, fourthArt);
     }
 
     public void ShowQuitModal() {
@@ -103,6 +125,8 @@ public class UIManager : MonoBehaviour {
     }
 
     IEnumerator Death(Death death) {
+        FindObjectOfType<AudioManager>().Stop();
+        AudioSource.PlayClipAtPoint(gameOverSFX, gameOverModal.transform.position, SFXVolume);
         yield return new WaitForSeconds(2f);
         var imageObj = gameOverModal.transform.Find("Image Reason");
         var textObj = gameOverModal.transform.Find("Game Over Reason");
@@ -165,6 +189,10 @@ public class UIManager : MonoBehaviour {
                 artifactsFounded++;
             }
         }
+    }
+
+    private int BoolToInt(bool value) {
+        return (value) ? 1 : 0;
     }
 
     [System.Serializable]

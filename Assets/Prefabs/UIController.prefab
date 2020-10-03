@@ -44,14 +44,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentLevel: 1
+  batteryText: {fileID: 0}
   itemDetail: {fileID: 0}
   gameOverModal: {fileID: 0}
   winModal: {fileID: 0}
   quitModal: {fileID: 0}
+  gameOverSFX: {fileID: 8300000, guid: 3f65d13a7c98eda4d8d9a04cf654c36a, type: 3}
+  winSFX: {fileID: 8300000, guid: a9bb77749a3461647b43bad233f3f71a, type: 3}
   fire: {fileID: 21300000, guid: e9c678eb6ab4f2446843be6c9d6806ba, type: 3}
   hole: {fileID: 21300000, guid: 41574f485eb9b194d982f9ecf7e2d9ee, type: 3}
   battery: {fileID: 1735321402320416474, guid: 9427a0a0fee7301459c73e518d136546, type: 3}
-  enemy: {fileID: 0}
+  enemy: {fileID: 21300000, guid: b446c5f41fb1fd249b65390079e7759a, type: 3}
   empty: {fileID: 21300000, guid: c0db69b37cf774843ab0b6e14c2a613f, type: 3}
   artifacts:
   - id: art_christ

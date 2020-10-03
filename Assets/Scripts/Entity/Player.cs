@@ -7,7 +7,11 @@ public class Player : MonoBehaviour {
 
     [SerializeField] EnvironmentController controller;
     [SerializeField] LayerMask interactable;
+    [SerializeField] LayerMask mud;
     [SerializeField] LayerMask walkable;
+    [SerializeField] AudioClip mudSFX;
+    [SerializeField] AudioClip walkSFX;
+    [SerializeField] AudioClip waterSFX;
 
     private Animator animator;
     private Vector2 input;
@@ -21,6 +25,7 @@ public class Player : MonoBehaviour {
     private int battery = 50;
     private int step = 0;
     private float moveSpeed = 2f;
+    private float SFXVolume;
     private float waterTime = 2f;
     private Death death;
 
@@ -29,10 +34,10 @@ public class Player : MonoBehaviour {
         animator = GetComponent<Animator>();
         uiManager = FindObjectOfType<UIManager>();
         uiManager.SetBattery(battery);
+        SFXVolume = GamePersist.Instance.sfx;
     }
 
     private void Update() {
-        Debug.Log(battery);
         if (Input.GetKeyDown(KeyCode.Escape)) {
             FindObjectOfType<UIManager>().ShowQuitModal();
         }
@@ -81,8 +86,14 @@ public class Player : MonoBehaviour {
 
                 if (IsMoveable(targetPos)) {
                     if (!IsWalkable(crateFuturePos)) return;
+                    if (!IsBlocked(crateFuturePos)) return;
                     battery--;
                 }
+                if (IsMud(targetPos)) {
+                    battery--;
+                    AudioSource.PlayClipAtPoint(mudSFX, targetPos, SFXVolume);
+                }
+                AudioSource.PlayClipAtPoint(walkSFX, targetPos, SFXVolume);
                 StartCoroutine(Move(targetPos));
                 ManageBatteryAndSteps();
                 uiManager.SetBattery(battery);
@@ -91,6 +102,7 @@ public class Player : MonoBehaviour {
                 waterMove = Vector2.zero;
             } else if (waterMove != Vector2.zero && (waterTime <= 0 || isWaterMoving)) {
                 var targetPos = waterMove;
+                AudioSource.PlayClipAtPoint(waterSFX, targetPos, SFXVolume);
                 if (!IsWalkable(targetPos)) return;
                 StartCoroutine(Move(targetPos));
                 waterMove = Vector2.zero;
@@ -135,8 +147,18 @@ public class Player : MonoBehaviour {
         return (Physics2D.OverlapCircle(target, 0.3f, interactable) != null);
     }
 
+    private bool IsMud(Vector3 target) {
+        return (Physics2D.OverlapCircle(target, 0.3f, mud) != null);
+    }
+
     private bool IsWalkable(Vector3 target) {
         return (Physics2D.OverlapCircle(target, 0.01f, walkable) != null) ? true : false;
+    }
+
+    private bool IsBlocked(Vector3 target) {
+        Debug.Log("IsBlocked?");
+        Debug.Log((Physics2D.OverlapCircle(target, 0.01f, interactable) != null) ? true : false);
+        return (Physics2D.OverlapCircle(target, 0.01f, interactable) != null) ? false : true;
     }
 
     public void Dead(Death death) {

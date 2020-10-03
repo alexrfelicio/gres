@@ -6,11 +6,13 @@ using UnityEngine.UI;
 public class OptionsController : MonoBehaviour {
 
     [SerializeField] Slider slider;
+    [SerializeField] Slider sfx;
 
     private int currentLanguage;
 
     private void Awake() {
         slider.value = GamePersist.Instance.volume;
+        sfx.value = GamePersist.Instance.sfx;
         if (GamePersist.Instance.language == 0) {
             FindObjectOfType<ButtonManager>().SelectedPTBR();
         } else {
@@ -21,6 +23,7 @@ public class OptionsController : MonoBehaviour {
 
     public void DefaultValues() {
         slider.value = 1f;
+        sfx.value = 1f;
         currentLanguage = 0;
         FindObjectOfType<ButtonManager>().SelectedPTBR();
         LangResolver.Instance.SetSystemLanguage(SystemLanguage.Portuguese);
@@ -32,6 +35,10 @@ public class OptionsController : MonoBehaviour {
 
     public float GetCurrentVolume() {
         return slider.value;
+    }
+
+    public float GetCurrentSFX() {
+        return sfx.value;
     }
 
     public int GetCurrentLanguage() {

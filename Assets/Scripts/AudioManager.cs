@@ -8,4 +8,8 @@ public class AudioManager : MonoBehaviour {
         this.GetComponent<AudioSource>().volume = GamePersist.Instance.volume;
     }
 
+    public void Stop() {
+        GetComponent<AudioSource>().Stop();
+    }
+
 }

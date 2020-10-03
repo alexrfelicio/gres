@@ -4,12 +4,12 @@ using UnityEngine;
 
 public static class GameSystem {
 
-    public static void SaveOptionsData(float volume, int language) {
+    public static void SaveOptionsData(float volume, float sfx, int language) {
         BinaryFormatter formatter = new BinaryFormatter();
         string path = Application.persistentDataPath + "/options.bin";
         FileStream stream = new FileStream(path, FileMode.Create);
 
-        OptionsData data = new OptionsData(volume, language);
+        OptionsData data = new OptionsData(volume, sfx, language);
         formatter.Serialize(stream, data);
         stream.Close();
     }

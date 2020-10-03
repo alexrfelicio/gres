@@ -7,7 +7,7 @@ public class EnvironmentController : MonoBehaviour {
 
     [Header("Environment Objects")]
     [SerializeField] GameObject fireObj;
-    [SerializeField] GameObject mudObj;
+    [SerializeField] AudioClip fireSFX;
     [Header("Environment Configs")]
     [SerializeField] private Enemy[] enemies;
     [SerializeField] private Fires[] fires;
@@ -15,8 +15,10 @@ public class EnvironmentController : MonoBehaviour {
     private int currentPlayerMovement = 0;
     private List<int> fireSpawns = new List<int>();
     private float fireSpawnTime = 3f;
+    private float SFXVolume;
 
     private void Start() {
+        SFXVolume = GamePersist.Instance.sfx;
         for (int i = 0; i < fires.Length; i++) {
             if (!fireSpawns.Contains(fires[i].move)) {
                 fireSpawns.Add(fires[i].move);
@@ -28,6 +30,7 @@ public class EnvironmentController : MonoBehaviour {
         if (fireSpawnTime <= 0) {
             currentPlayerMovement++;
             CheckFires(currentPlayerMovement);
+            fireSpawnTime = 3f;
         } else {
             fireSpawnTime -= Time.deltaTime;
         }
@@ -49,9 +52,9 @@ public class EnvironmentController : MonoBehaviour {
                         new Vector2(fires[i].posX, fires[i].posY),
                         transform.rotation,
                         firesObject);
+                    AudioSource.PlayClipAtPoint(fireSFX, new Vector3(fires[i].posX, fires[i].posY, transform.position.z), SFXVolume);
                 }
             }
-            fireSpawnTime = 3f;
         }
         fireSpawns.Remove(move);
         currentPlayerMovement = move;

@@ -6,6 +6,7 @@ public class GamePersist : MonoBehaviour {
 
     public static GamePersist Instance { get; private set; }
     public float volume = 1f;
+    public float sfx = 1f;
     public int language = 0;
     public Dictionary<int, int[]> levels;
 
@@ -27,6 +28,7 @@ public class GamePersist : MonoBehaviour {
         var optionsData = GameSystem.LoadOptionsData();
         if (optionsData != null) {
             volume = optionsData.volume;
+            sfx = optionsData.sfx;
             language = optionsData.language;
         }
 

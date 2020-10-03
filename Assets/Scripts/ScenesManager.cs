@@ -20,7 +20,8 @@ public class ScenesManager : MonoBehaviour{
     public void BackOptionsScene() {
         var volume = FindObjectOfType<OptionsController>().GetCurrentVolume();
         var language = FindObjectOfType<OptionsController>().GetCurrentLanguage();
-        GameSystem.SaveOptionsData(volume, language);
+        var sfx = FindObjectOfType<OptionsController>().GetCurrentSFX();
+        GameSystem.SaveOptionsData(volume, sfx, language);
         FindObjectOfType<GamePersist>().Load();
         SceneManager.LoadScene(START_SCENE);
     }
