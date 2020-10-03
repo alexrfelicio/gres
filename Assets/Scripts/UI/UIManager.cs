@@ -48,6 +48,7 @@ public class UIManager : MonoBehaviour {
     }
 
     public void ShowItemDetail(Sprite image, string artifactTitle, string artifact) {
+        GamePersist.Instance.PauseGame();
         var imageObj = itemDetail.transform.Find("Artifact Image");
         var titleObj = itemDetail.transform.Find("Artifact Title");
         var textObj = itemDetail.transform.Find("Artifact Text");

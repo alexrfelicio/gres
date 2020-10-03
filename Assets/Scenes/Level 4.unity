@@ -169,6 +169,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Crate (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6082224900371198624, guid: 41c49fa8368148647889a12773468758,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 6082224900371198626, guid: 41c49fa8368148647889a12773468758,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1620,6 +1625,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Crate
       objectReference: {fileID: 0}
+    - target: {fileID: 6082224900371198624, guid: 41c49fa8368148647889a12773468758,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 6082224900371198626, guid: 41c49fa8368148647889a12773468758,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1870,6 +1880,21 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ResetLevel4
       objectReference: {fileID: 0}
+    - target: {fileID: 6506641958412028167, guid: 7c99baefb87a7e24c9335ab9f3ae8dbe,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1150676500}
+    - target: {fileID: 6506641958412028167, guid: 7c99baefb87a7e24c9335ab9f3ae8dbe,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ResetLevel4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6506641958412028167, guid: 7c99baefb87a7e24c9335ab9f3ae8dbe,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ScenesManager, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 7322807062764311367, guid: 7c99baefb87a7e24c9335ab9f3ae8dbe,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -1945,6 +1970,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Crate (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6082224900371198624, guid: 41c49fa8368148647889a12773468758,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 6082224900371198626, guid: 41c49fa8368148647889a12773468758,
         type: 3}
@@ -2125,7 +2155,7 @@ PrefabInstance:
     - target: {fileID: 7256034396749131502, guid: e6b6e44a7ea0bc9439348c1fab871927,
         type: 3}
       propertyPath: repeatMovement
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7269069569273645829, guid: e6b6e44a7ea0bc9439348c1fab871927,
         type: 3}
@@ -3009,6 +3039,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Crate (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6082224900371198624, guid: 41c49fa8368148647889a12773468758,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 6082224900371198626, guid: 41c49fa8368148647889a12773468758,
         type: 3}
@@ -4210,6 +4245,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Crate (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6082224900371198624, guid: 41c49fa8368148647889a12773468758,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 6082224900371198626, guid: 41c49fa8368148647889a12773468758,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4556,6 +4596,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Crate (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6082224900371198624, guid: 41c49fa8368148647889a12773468758,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 6082224900371198626, guid: 41c49fa8368148647889a12773468758,
         type: 3}
@@ -6900,6 +6945,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Crate (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6082224900371198624, guid: 41c49fa8368148647889a12773468758,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 6082224900371198626, guid: 41c49fa8368148647889a12773468758,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7248,6 +7298,7 @@ PolygonCollider2D:
       - {x: -2.0072584, y: -3.1067705}
       - {x: -1.9768407, y: -3.105785}
       - {x: -1.6273643, y: -3.1038103}
+      - {x: -0.012509823, y: -3.095337}
       - {x: -0.01919043, y: -3.13539}
       - {x: -0.0028322935, y: -4.0737677}
       - {x: 0.028207265, y: -4.096989}

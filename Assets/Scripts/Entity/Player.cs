@@ -63,7 +63,7 @@ public class Player : MonoBehaviour {
 
             if (input.x != 0) input.y = 0;
 
-            if (input != Vector2.zero) {
+            if (input != Vector2.zero && !isWaterMoving) {
                 float verticalMovement = 0;
                 if (input.y > 0) {
                     verticalMovement = Vector2.up.y;
@@ -95,7 +95,7 @@ public class Player : MonoBehaviour {
                     AudioSource.PlayClipAtPoint(mudSFX, targetPos, SFXVolume);
                 }
                 AudioSource.PlayClipAtPoint(walkSFX, targetPos, SFXVolume);
-                StartCoroutine(Move(targetPos));
+                StartCoroutine(Move(targetPos, false));
                 ManageBatteryAndSteps();
                 uiManager.SetBattery(battery);
                 controller.MoveEnemies();
@@ -105,7 +105,7 @@ public class Player : MonoBehaviour {
                 var targetPos = waterMove;
                 AudioSource.PlayClipAtPoint(waterSFX, targetPos, SFXVolume);
                 if (!IsWalkable(targetPos)) return;
-                StartCoroutine(Move(targetPos));
+                StartCoroutine(Move(targetPos, true));
                 waterMove = Vector2.zero;
                 waterTime = 2f;
             }
@@ -118,7 +118,7 @@ public class Player : MonoBehaviour {
         battery--;
     }
 
-    IEnumerator Move(Vector3 targetPos) {
+    IEnumerator Move(Vector3 targetPos, bool isWater) {
         isMoving = true;
         animator.SetBool("IsMoving", isMoving);
         while ((targetPos - transform.position).sqrMagnitude > Mathf.Epsilon) {
@@ -128,7 +128,9 @@ public class Player : MonoBehaviour {
         }
         transform.position = targetPos;
         isMoving = false;
-        isWaterMoving = false;
+        if (isWater) {
+            isWaterMoving = false;
+        }
         animator.SetBool("IsMoving", isMoving);
     }
 

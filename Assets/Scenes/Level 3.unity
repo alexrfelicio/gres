@@ -799,6 +799,21 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ResetLevel3
       objectReference: {fileID: 0}
+    - target: {fileID: 6506641958412028167, guid: 7c99baefb87a7e24c9335ab9f3ae8dbe,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1150676500}
+    - target: {fileID: 6506641958412028167, guid: 7c99baefb87a7e24c9335ab9f3ae8dbe,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ResetLevel3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6506641958412028167, guid: 7c99baefb87a7e24c9335ab9f3ae8dbe,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ScenesManager, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 7322807062764311367, guid: 7c99baefb87a7e24c9335ab9f3ae8dbe,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
