@@ -4659,6 +4659,12 @@ PrefabInstance:
       propertyPath: artifact
       value: art_onca
       objectReference: {fileID: 0}
+    - target: {fileID: 399199201289552469, guid: f6d6dc0c4ca23ba4897c1eafbcdef51b,
+        type: 3}
+      propertyPath: sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 51c6717976d81c74586708672ca33296,
+        type: 3}
     - target: {fileID: 399199201289552471, guid: f6d6dc0c4ca23ba4897c1eafbcdef51b,
         type: 3}
       propertyPath: m_Name
@@ -6318,5 +6324,11 @@ PrefabInstance:
       propertyPath: artifacts.Array.data[3].id
       value: art_onca
       objectReference: {fileID: 0}
+    - target: {fileID: 4606502124004565045, guid: 0f319fb9ed8a10d44b380a5049a6536a,
+        type: 3}
+      propertyPath: artifacts.Array.data[3].sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 51c6717976d81c74586708672ca33296,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f319fb9ed8a10d44b380a5049a6536a, type: 3}

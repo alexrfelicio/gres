@@ -14,17 +14,17 @@ public class GamePersist : MonoBehaviour {
         if (Instance == null) {
             Instance = this;
             DontDestroyOnLoad(gameObject);
+            levels = new Dictionary<int, int[]>();
             Load();
             ResumeGame();
         } else {
             Destroy(gameObject);
-            Instance.Load();
+            //Instance.Load();
             Instance.ResumeGame();
         }
     }
 
-    public void Load() {
-        levels = new Dictionary<int, int[]>();
+    public void Load() {        
         var optionsData = GameSystem.LoadOptionsData();
         if (optionsData != null) {
             volume = optionsData.volume;

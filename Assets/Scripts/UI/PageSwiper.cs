@@ -8,6 +8,7 @@ public class PageSwiper : MonoBehaviour {
     [SerializeField] GameObject leftArrow;
     [SerializeField] GameObject rightArrow;
 
+    private bool isMoving = false;
     private int currentPanel = 1;
     private float easing = 0.5f;
     private float panelWidth;
@@ -20,10 +21,12 @@ public class PageSwiper : MonoBehaviour {
     }
 
     void Update() {
-        if (Input.GetKeyDown(KeyCode.LeftArrow) && currentPanel-1 > 0) {
-            MoveRight();
-        } else if (Input.GetKeyDown(KeyCode.RightArrow) && currentPanel+1 < 6) {
-            MoveLeft();
+        if (!isMoving) {
+            if (Input.GetKeyDown(KeyCode.LeftArrow) && currentPanel - 1 > 0) {
+                MoveRight();
+            } else if (Input.GetKeyDown(KeyCode.RightArrow) && currentPanel + 1 < 6) {
+                MoveLeft();
+            }
         }
 
         if (currentPanel == 1) {
@@ -50,11 +53,14 @@ public class PageSwiper : MonoBehaviour {
 
     IEnumerator SmoothMove(Vector3 source, Vector3 target, float seconds) {
         float t = 0f;
+        isMoving = true;
         while (t <= 1.0f) {
             t += Time.deltaTime / seconds;
             transform.position = Vector3.Lerp(source, target, Mathf.SmoothStep(0f, 1f, t));
             yield return null;
         }
+        yield return new WaitForSeconds(0.5f);
+        isMoving = false;
     }
 
     public int GetCurrentLevel() {

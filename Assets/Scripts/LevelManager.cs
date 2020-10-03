@@ -8,6 +8,7 @@ public class LevelManager : MonoBehaviour {
     [SerializeField] GameObject panel;
 
     private void Awake() {
+        GamePersist.Instance.Load();
         if (GamePersist.Instance.levels != null) {
             Color enabled = new Color(1f, 1f, 1f);
             Color disabled = new Color(0.1f, 0.1f, 0.1f);
