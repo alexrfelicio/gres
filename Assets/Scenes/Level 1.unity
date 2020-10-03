@@ -5201,6 +5201,16 @@ PrefabInstance:
       propertyPath: m_FlipX
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5298659229219366169, guid: d947f4711cd951949afe2ee5ae2b21ee,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: -549872815
+      objectReference: {fileID: 0}
+    - target: {fileID: 5298659229219366169, guid: d947f4711cd951949afe2ee5ae2b21ee,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5298659229219366174, guid: d947f4711cd951949afe2ee5ae2b21ee,
         type: 3}
       propertyPath: m_Name

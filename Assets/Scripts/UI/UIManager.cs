@@ -97,7 +97,8 @@ public class UIManager : MonoBehaviour {
         }
 
         int scoreValue = batteryValue + artifactValue + allArtifactValue;
-        string scoreText = (scoreValue > highestScore) ?
+
+        string scoreText = (scoreValue < highestScore) ?
             LangResolver.Instance.GetTextByKey("win_score") :
             LangResolver.Instance.GetTextByKey("win_high_score");
         scoreText += " " + scoreValue.ToString();

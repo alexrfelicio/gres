@@ -1072,11 +1072,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1150676500}
+      objectReference: {fileID: 1422843184}
     - target: {fileID: 3090729887526864580, guid: 7c99baefb87a7e24c9335ab9f3ae8dbe,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: LoadLevel
+      value: ReturnToLevelSelect
+      objectReference: {fileID: 0}
+    - target: {fileID: 3090729887526864580, guid: 7c99baefb87a7e24c9335ab9f3ae8dbe,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UIManager, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3090729888502171322, guid: 7c99baefb87a7e24c9335ab9f3ae8dbe,
         type: 3}
@@ -5730,6 +5735,11 @@ PrefabInstance:
       propertyPath: mud.m_Bits
       value: 32768
       objectReference: {fileID: 0}
+    - target: {fileID: 7269069569273645828, guid: cd4ad722ca9d18e44afa5e165cc8d408,
+        type: 3}
+      propertyPath: interactable.m_Bits
+      value: 8192
+      objectReference: {fileID: 0}
     - target: {fileID: 7269069569273645829, guid: cd4ad722ca9d18e44afa5e165cc8d408,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5924,6 +5934,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_FlipX
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5298659229219366169, guid: d947f4711cd951949afe2ee5ae2b21ee,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: -549872815
+      objectReference: {fileID: 0}
+    - target: {fileID: 5298659229219366169, guid: d947f4711cd951949afe2ee5ae2b21ee,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5298659229219366174, guid: d947f4711cd951949afe2ee5ae2b21ee,
         type: 3}

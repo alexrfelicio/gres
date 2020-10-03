@@ -1070,11 +1070,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1150676500}
+      objectReference: {fileID: 1422843184}
     - target: {fileID: 3090729887526864580, guid: 7c99baefb87a7e24c9335ab9f3ae8dbe,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: LoadLevel
+      value: ReturnToLevelSelect
+      objectReference: {fileID: 0}
+    - target: {fileID: 3090729887526864580, guid: 7c99baefb87a7e24c9335ab9f3ae8dbe,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UIManager, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3090729888502171322, guid: 7c99baefb87a7e24c9335ab9f3ae8dbe,
         type: 3}
@@ -1209,7 +1214,7 @@ PrefabInstance:
     - target: {fileID: 3090729889161141542, guid: 7c99baefb87a7e24c9335ab9f3ae8dbe,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ResetLevel4
+      value: ResetLevel5
       objectReference: {fileID: 0}
     - target: {fileID: 5157327333353093598, guid: 7c99baefb87a7e24c9335ab9f3ae8dbe,
         type: 3}
@@ -1219,7 +1224,7 @@ PrefabInstance:
     - target: {fileID: 5157327333353093598, guid: 7c99baefb87a7e24c9335ab9f3ae8dbe,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ResetLevel4
+      value: ResetLevel5
       objectReference: {fileID: 0}
     - target: {fileID: 6506641958412028167, guid: 7c99baefb87a7e24c9335ab9f3ae8dbe,
         type: 3}
@@ -6676,6 +6681,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5298659229219366169, guid: d947f4711cd951949afe2ee5ae2b21ee,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: -549872815
+      objectReference: {fileID: 0}
+    - target: {fileID: 5298659229219366169, guid: d947f4711cd951949afe2ee5ae2b21ee,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5298659229219366174, guid: d947f4711cd951949afe2ee5ae2b21ee,
         type: 3}

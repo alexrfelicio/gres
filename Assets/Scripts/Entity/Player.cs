@@ -159,8 +159,6 @@ public class Player : MonoBehaviour {
     }
 
     private bool IsBlocked(Vector3 target) {
-        Debug.Log("IsBlocked?");
-        Debug.Log((Physics2D.OverlapCircle(target, 0.01f, interactable) != null) ? true : false);
         return (Physics2D.OverlapCircle(target, 0.01f, interactable) != null) ? false : true;
     }
 
