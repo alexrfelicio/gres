@@ -2726,6 +2726,12 @@ PrefabInstance:
       propertyPath: artifact
       value: art_missio
       objectReference: {fileID: 0}
+    - target: {fileID: 399199201289552469, guid: f6d6dc0c4ca23ba4897c1eafbcdef51b,
+        type: 3}
+      propertyPath: sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 530f2371b7f837d43b0b19eb88a99280,
+        type: 3}
     - target: {fileID: 399199201289552471, guid: f6d6dc0c4ca23ba4897c1eafbcdef51b,
         type: 3}
       propertyPath: m_Name
@@ -3942,6 +3948,12 @@ PrefabInstance:
       propertyPath: artifact
       value: art_espeto
       objectReference: {fileID: 0}
+    - target: {fileID: 399199201289552469, guid: f6d6dc0c4ca23ba4897c1eafbcdef51b,
+        type: 3}
+      propertyPath: sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: dcf40ec5f6c2d3547b3b468e3f1e4807,
+        type: 3}
     - target: {fileID: 399199201289552471, guid: f6d6dc0c4ca23ba4897c1eafbcdef51b,
         type: 3}
       propertyPath: m_Name
@@ -5355,6 +5367,12 @@ PrefabInstance:
       propertyPath: artifact
       value: art_cuia
       objectReference: {fileID: 0}
+    - target: {fileID: 399199201289552469, guid: f6d6dc0c4ca23ba4897c1eafbcdef51b,
+        type: 3}
+      propertyPath: sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 59ce0f6dcb1e9804da80e5a7f7178a4a,
+        type: 3}
     - target: {fileID: 399199201289552471, guid: f6d6dc0c4ca23ba4897c1eafbcdef51b,
         type: 3}
       propertyPath: m_Name
@@ -7063,6 +7081,12 @@ PrefabInstance:
       propertyPath: SFX
       value: 
       objectReference: {fileID: 8300000, guid: 5e194b416f72ad04e8eadad9df3d5e73, type: 3}
+    - target: {fileID: 399199201289552469, guid: f6d6dc0c4ca23ba4897c1eafbcdef51b,
+        type: 3}
+      propertyPath: sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 703e9812714634a4c84c45dea5f84b3e,
+        type: 3}
     - target: {fileID: 399199201289552471, guid: f6d6dc0c4ca23ba4897c1eafbcdef51b,
         type: 3}
       propertyPath: m_Name
@@ -7243,6 +7267,50 @@ PrefabInstance:
       propertyPath: enemy
       value: 
       objectReference: {fileID: 21300000, guid: c5798f4ab83018843bb33dac00751577,
+        type: 3}
+    - target: {fileID: 4606502124004565045, guid: 0f319fb9ed8a10d44b380a5049a6536a,
+        type: 3}
+      propertyPath: artifacts.Array.data[0].id
+      value: art_cuia
+      objectReference: {fileID: 0}
+    - target: {fileID: 4606502124004565045, guid: 0f319fb9ed8a10d44b380a5049a6536a,
+        type: 3}
+      propertyPath: artifacts.Array.data[0].sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 59ce0f6dcb1e9804da80e5a7f7178a4a,
+        type: 3}
+    - target: {fileID: 4606502124004565045, guid: 0f319fb9ed8a10d44b380a5049a6536a,
+        type: 3}
+      propertyPath: artifacts.Array.data[1].id
+      value: art_espeto
+      objectReference: {fileID: 0}
+    - target: {fileID: 4606502124004565045, guid: 0f319fb9ed8a10d44b380a5049a6536a,
+        type: 3}
+      propertyPath: artifacts.Array.data[1].sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: dcf40ec5f6c2d3547b3b468e3f1e4807,
+        type: 3}
+    - target: {fileID: 4606502124004565045, guid: 0f319fb9ed8a10d44b380a5049a6536a,
+        type: 3}
+      propertyPath: artifacts.Array.data[2].sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 703e9812714634a4c84c45dea5f84b3e,
+        type: 3}
+    - target: {fileID: 4606502124004565045, guid: 0f319fb9ed8a10d44b380a5049a6536a,
+        type: 3}
+      propertyPath: artifacts.Array.data[2].id
+      value: art_gaita
+      objectReference: {fileID: 0}
+    - target: {fileID: 4606502124004565045, guid: 0f319fb9ed8a10d44b380a5049a6536a,
+        type: 3}
+      propertyPath: artifacts.Array.data[3].id
+      value: art_missio
+      objectReference: {fileID: 0}
+    - target: {fileID: 4606502124004565045, guid: 0f319fb9ed8a10d44b380a5049a6536a,
+        type: 3}
+      propertyPath: artifacts.Array.data[3].sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 530f2371b7f837d43b0b19eb88a99280,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f319fb9ed8a10d44b380a5049a6536a, type: 3}
