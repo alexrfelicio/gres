@@ -171,4 +171,9 @@ public class Player : MonoBehaviour {
         isFinished = true;
     }
 
+    public void ChargeBattery(int amount) {
+        battery += amount;
+        uiManager.SetBattery(battery);
+    }
+
 }

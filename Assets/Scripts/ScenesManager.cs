@@ -13,6 +13,7 @@ public class ScenesManager : MonoBehaviour{
     }
 
     public void StartLevel() {
+        MusicTheme.Instance.StopAudio();
         string level = LEVEL_PREFFIX + FindObjectOfType<PageSwiper>().GetCurrentLevel();
         SceneManager.LoadScene(level);        
     }
@@ -55,6 +56,9 @@ public class ScenesManager : MonoBehaviour{
     }
 
     public void LoadLevel() {
+        if (!MusicTheme.Instance.IsPlaying()) {
+            MusicTheme.Instance.PlayAudio();
+        }
         SceneManager.LoadScene("LevelScene");
     }
 
