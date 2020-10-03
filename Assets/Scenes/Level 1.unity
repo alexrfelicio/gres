@@ -5080,6 +5080,28 @@ PrefabInstance:
       propertyPath: batteryText
       value: 
       objectReference: {fileID: 1685105448}
+    - target: {fileID: 4606502124004565045, guid: 0f319fb9ed8a10d44b380a5049a6536a,
+        type: 3}
+      propertyPath: artifacts.Array.data[0].id
+      value: art_coffee
+      objectReference: {fileID: 0}
+    - target: {fileID: 4606502124004565045, guid: 0f319fb9ed8a10d44b380a5049a6536a,
+        type: 3}
+      propertyPath: artifacts.Array.data[3].id
+      value: art_christ
+      objectReference: {fileID: 0}
+    - target: {fileID: 4606502124004565045, guid: 0f319fb9ed8a10d44b380a5049a6536a,
+        type: 3}
+      propertyPath: artifacts.Array.data[0].sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: afd2ed76952d689459641e3b486ce0de,
+        type: 3}
+    - target: {fileID: 4606502124004565045, guid: 0f319fb9ed8a10d44b380a5049a6536a,
+        type: 3}
+      propertyPath: artifacts.Array.data[3].sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 16d13e53aeda7704bb99437bd4686a79,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f319fb9ed8a10d44b380a5049a6536a, type: 3}
 --- !u!1001 &5298659229775837861

@@ -1594,6 +1594,12 @@ PrefabInstance:
       propertyPath: artifact
       value: art_ball
       objectReference: {fileID: 0}
+    - target: {fileID: 399199201289552469, guid: f6d6dc0c4ca23ba4897c1eafbcdef51b,
+        type: 3}
+      propertyPath: sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9b60a7f6d4a0b2d4f98d84b43ff1da29,
+        type: 3}
     - target: {fileID: 399199201289552471, guid: f6d6dc0c4ca23ba4897c1eafbcdef51b,
         type: 3}
       propertyPath: m_Name
@@ -2898,6 +2904,12 @@ PrefabInstance:
       propertyPath: artifact
       value: art_pacu
       objectReference: {fileID: 0}
+    - target: {fileID: 399199201289552469, guid: f6d6dc0c4ca23ba4897c1eafbcdef51b,
+        type: 3}
+      propertyPath: sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: db0c00e56a754c3499e042ebe4c9a1bb,
+        type: 3}
     - target: {fileID: 399199201289552471, guid: f6d6dc0c4ca23ba4897c1eafbcdef51b,
         type: 3}
       propertyPath: m_Name
@@ -6041,6 +6053,12 @@ PrefabInstance:
       propertyPath: artifact
       value: art_pote
       objectReference: {fileID: 0}
+    - target: {fileID: 399199201289552469, guid: f6d6dc0c4ca23ba4897c1eafbcdef51b,
+        type: 3}
+      propertyPath: sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 1024a83942a890440a7821f48cfc6117,
+        type: 3}
     - target: {fileID: 399199201289552471, guid: f6d6dc0c4ca23ba4897c1eafbcdef51b,
         type: 3}
       propertyPath: m_Name
@@ -6222,5 +6240,43 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: b446c5f41fb1fd249b65390079e7759a,
         type: 3}
+    - target: {fileID: 4606502124004565045, guid: 0f319fb9ed8a10d44b380a5049a6536a,
+        type: 3}
+      propertyPath: artifacts.Array.data[0].id
+      value: art_ball
+      objectReference: {fileID: 0}
+    - target: {fileID: 4606502124004565045, guid: 0f319fb9ed8a10d44b380a5049a6536a,
+        type: 3}
+      propertyPath: artifacts.Array.data[0].sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9b60a7f6d4a0b2d4f98d84b43ff1da29,
+        type: 3}
+    - target: {fileID: 4606502124004565045, guid: 0f319fb9ed8a10d44b380a5049a6536a,
+        type: 3}
+      propertyPath: artifacts.Array.data[1].id
+      value: art_pacu
+      objectReference: {fileID: 0}
+    - target: {fileID: 4606502124004565045, guid: 0f319fb9ed8a10d44b380a5049a6536a,
+        type: 3}
+      propertyPath: artifacts.Array.data[1].sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: db0c00e56a754c3499e042ebe4c9a1bb,
+        type: 3}
+    - target: {fileID: 4606502124004565045, guid: 0f319fb9ed8a10d44b380a5049a6536a,
+        type: 3}
+      propertyPath: artifacts.Array.data[2].sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 1024a83942a890440a7821f48cfc6117,
+        type: 3}
+    - target: {fileID: 4606502124004565045, guid: 0f319fb9ed8a10d44b380a5049a6536a,
+        type: 3}
+      propertyPath: artifacts.Array.data[2].id
+      value: art_pote
+      objectReference: {fileID: 0}
+    - target: {fileID: 4606502124004565045, guid: 0f319fb9ed8a10d44b380a5049a6536a,
+        type: 3}
+      propertyPath: artifacts.Array.data[3].id
+      value: art_onca
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f319fb9ed8a10d44b380a5049a6536a, type: 3}
