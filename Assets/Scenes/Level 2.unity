@@ -294,6 +294,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Water (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 5271556923592031647, guid: ef74457eadb94d34a8ef93149459b35c,
+        type: 3}
+      propertyPath: direction
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5271556923592031647, guid: ef74457eadb94d34a8ef93149459b35c,
+        type: 3}
+      propertyPath: oneStepAllowed
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef74457eadb94d34a8ef93149459b35c, type: 3}
 --- !u!4 &82177786 stripped
@@ -377,6 +387,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Water (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 5271556923592031647, guid: ef74457eadb94d34a8ef93149459b35c,
+        type: 3}
+      propertyPath: direction
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5271556923592031647, guid: ef74457eadb94d34a8ef93149459b35c,
+        type: 3}
+      propertyPath: oneStepAllowed
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef74457eadb94d34a8ef93149459b35c, type: 3}
 --- !u!1001 &99876730
@@ -453,6 +473,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Water (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5271556923592031647, guid: ef74457eadb94d34a8ef93149459b35c,
+        type: 3}
+      propertyPath: direction
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5271556923592031647, guid: ef74457eadb94d34a8ef93149459b35c,
+        type: 3}
+      propertyPath: oneStepAllowed
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef74457eadb94d34a8ef93149459b35c, type: 3}
@@ -574,6 +604,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Water (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 5271556923592031647, guid: ef74457eadb94d34a8ef93149459b35c,
+        type: 3}
+      propertyPath: direction
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5271556923592031647, guid: ef74457eadb94d34a8ef93149459b35c,
+        type: 3}
+      propertyPath: oneStepAllowed
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef74457eadb94d34a8ef93149459b35c, type: 3}
 --- !u!1 &255693843
@@ -687,6 +727,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Water (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5271556923592031647, guid: ef74457eadb94d34a8ef93149459b35c,
+        type: 3}
+      propertyPath: direction
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5271556923592031647, guid: ef74457eadb94d34a8ef93149459b35c,
+        type: 3}
+      propertyPath: oneStepAllowed
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef74457eadb94d34a8ef93149459b35c, type: 3}
 --- !u!4 &289915844 stripped
@@ -781,6 +831,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Water (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5271556923592031647, guid: ef74457eadb94d34a8ef93149459b35c,
+        type: 3}
+      propertyPath: direction
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5271556923592031647, guid: ef74457eadb94d34a8ef93149459b35c,
+        type: 3}
+      propertyPath: oneStepAllowed
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef74457eadb94d34a8ef93149459b35c, type: 3}
@@ -888,6 +948,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Water (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5271556923592031647, guid: ef74457eadb94d34a8ef93149459b35c,
+        type: 3}
+      propertyPath: direction
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5271556923592031647, guid: ef74457eadb94d34a8ef93149459b35c,
+        type: 3}
+      propertyPath: oneStepAllowed
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef74457eadb94d34a8ef93149459b35c, type: 3}
@@ -1304,6 +1374,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Water (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 5271556923592031647, guid: ef74457eadb94d34a8ef93149459b35c,
+        type: 3}
+      propertyPath: direction
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5271556923592031647, guid: ef74457eadb94d34a8ef93149459b35c,
+        type: 3}
+      propertyPath: oneStepAllowed
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef74457eadb94d34a8ef93149459b35c, type: 3}
 --- !u!1 &437477747
@@ -1529,6 +1609,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Water (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 5271556923592031647, guid: ef74457eadb94d34a8ef93149459b35c,
+        type: 3}
+      propertyPath: direction
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5271556923592031647, guid: ef74457eadb94d34a8ef93149459b35c,
+        type: 3}
+      propertyPath: oneStepAllowed
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef74457eadb94d34a8ef93149459b35c, type: 3}
 --- !u!1001 &580458451
@@ -1687,6 +1777,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Water (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 5271556923592031647, guid: ef74457eadb94d34a8ef93149459b35c,
+        type: 3}
+      propertyPath: direction
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5271556923592031647, guid: ef74457eadb94d34a8ef93149459b35c,
+        type: 3}
+      propertyPath: oneStepAllowed
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef74457eadb94d34a8ef93149459b35c, type: 3}
 --- !u!1001 &651296421
@@ -1763,6 +1863,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Water (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5271556923592031647, guid: ef74457eadb94d34a8ef93149459b35c,
+        type: 3}
+      propertyPath: direction
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5271556923592031647, guid: ef74457eadb94d34a8ef93149459b35c,
+        type: 3}
+      propertyPath: oneStepAllowed
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef74457eadb94d34a8ef93149459b35c, type: 3}
@@ -1841,6 +1951,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Water (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 5271556923592031647, guid: ef74457eadb94d34a8ef93149459b35c,
+        type: 3}
+      propertyPath: direction
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5271556923592031647, guid: ef74457eadb94d34a8ef93149459b35c,
+        type: 3}
+      propertyPath: oneStepAllowed
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef74457eadb94d34a8ef93149459b35c, type: 3}
 --- !u!1001 &690673735
@@ -1917,6 +2037,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Water (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5271556923592031647, guid: ef74457eadb94d34a8ef93149459b35c,
+        type: 3}
+      propertyPath: direction
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5271556923592031647, guid: ef74457eadb94d34a8ef93149459b35c,
+        type: 3}
+      propertyPath: oneStepAllowed
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef74457eadb94d34a8ef93149459b35c, type: 3}
@@ -2066,6 +2196,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 23564848}
     m_Modifications:
+    - target: {fileID: 399199201289552469, guid: f6d6dc0c4ca23ba4897c1eafbcdef51b,
+        type: 3}
+      propertyPath: artifactTitle
+      value: art_lacerda_txt
+      objectReference: {fileID: 0}
+    - target: {fileID: 399199201289552469, guid: f6d6dc0c4ca23ba4897c1eafbcdef51b,
+        type: 3}
+      propertyPath: artifact
+      value: art_lacerda
+      objectReference: {fileID: 0}
     - target: {fileID: 399199201289552471, guid: f6d6dc0c4ca23ba4897c1eafbcdef51b,
         type: 3}
       propertyPath: m_Name
@@ -2220,6 +2360,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Water (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5271556923592031647, guid: ef74457eadb94d34a8ef93149459b35c,
+        type: 3}
+      propertyPath: direction
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5271556923592031647, guid: ef74457eadb94d34a8ef93149459b35c,
+        type: 3}
+      propertyPath: oneStepAllowed
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef74457eadb94d34a8ef93149459b35c, type: 3}
@@ -2379,6 +2529,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Water (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 5271556923592031647, guid: ef74457eadb94d34a8ef93149459b35c,
+        type: 3}
+      propertyPath: direction
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5271556923592031647, guid: ef74457eadb94d34a8ef93149459b35c,
+        type: 3}
+      propertyPath: oneStepAllowed
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef74457eadb94d34a8ef93149459b35c, type: 3}
 --- !u!1001 &1028597141
@@ -2455,6 +2615,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Water (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5271556923592031647, guid: ef74457eadb94d34a8ef93149459b35c,
+        type: 3}
+      propertyPath: direction
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5271556923592031647, guid: ef74457eadb94d34a8ef93149459b35c,
+        type: 3}
+      propertyPath: oneStepAllowed
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef74457eadb94d34a8ef93149459b35c, type: 3}
@@ -2864,6 +3034,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 23564848}
     m_Modifications:
+    - target: {fileID: 399199201289552469, guid: f6d6dc0c4ca23ba4897c1eafbcdef51b,
+        type: 3}
+      propertyPath: artifactTitle
+      value: art_berimbau_txt
+      objectReference: {fileID: 0}
+    - target: {fileID: 399199201289552469, guid: f6d6dc0c4ca23ba4897c1eafbcdef51b,
+        type: 3}
+      propertyPath: artifact
+      value: art_berimbau
+      objectReference: {fileID: 0}
+    - target: {fileID: 399199201289552469, guid: f6d6dc0c4ca23ba4897c1eafbcdef51b,
+        type: 3}
+      propertyPath: SFX
+      value: 
+      objectReference: {fileID: 8300000, guid: 1bfbe049084bca44ea5e7bd6cec58427, type: 3}
     - target: {fileID: 399199201289552471, guid: f6d6dc0c4ca23ba4897c1eafbcdef51b,
         type: 3}
       propertyPath: m_Name
@@ -3088,6 +3273,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Water (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 5271556923592031647, guid: ef74457eadb94d34a8ef93149459b35c,
+        type: 3}
+      propertyPath: direction
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5271556923592031647, guid: ef74457eadb94d34a8ef93149459b35c,
+        type: 3}
+      propertyPath: oneStepAllowed
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef74457eadb94d34a8ef93149459b35c, type: 3}
 --- !u!4 &1400576094 stripped
@@ -3177,6 +3372,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Water (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5271556923592031647, guid: ef74457eadb94d34a8ef93149459b35c,
+        type: 3}
+      propertyPath: direction
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5271556923592031647, guid: ef74457eadb94d34a8ef93149459b35c,
+        type: 3}
+      propertyPath: oneStepAllowed
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef74457eadb94d34a8ef93149459b35c, type: 3}
 --- !u!114 &1422843184 stripped
@@ -3265,6 +3470,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Water (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5271556923592031647, guid: ef74457eadb94d34a8ef93149459b35c,
+        type: 3}
+      propertyPath: direction
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5271556923592031647, guid: ef74457eadb94d34a8ef93149459b35c,
+        type: 3}
+      propertyPath: oneStepAllowed
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef74457eadb94d34a8ef93149459b35c, type: 3}
@@ -4278,6 +4493,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Water (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 5271556923592031647, guid: ef74457eadb94d34a8ef93149459b35c,
+        type: 3}
+      propertyPath: direction
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5271556923592031647, guid: ef74457eadb94d34a8ef93149459b35c,
+        type: 3}
+      propertyPath: oneStepAllowed
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef74457eadb94d34a8ef93149459b35c, type: 3}
 --- !u!1001 &1645074655
@@ -4287,6 +4512,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 23564848}
     m_Modifications:
+    - target: {fileID: 399199201289552469, guid: f6d6dc0c4ca23ba4897c1eafbcdef51b,
+        type: 3}
+      propertyPath: artifactTitle
+      value: art_acaraje_txt
+      objectReference: {fileID: 0}
+    - target: {fileID: 399199201289552469, guid: f6d6dc0c4ca23ba4897c1eafbcdef51b,
+        type: 3}
+      propertyPath: artifact
+      value: art_acaraje
+      objectReference: {fileID: 0}
     - target: {fileID: 399199201289552471, guid: f6d6dc0c4ca23ba4897c1eafbcdef51b,
         type: 3}
       propertyPath: m_Name
@@ -4465,6 +4700,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Water (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5271556923592031647, guid: ef74457eadb94d34a8ef93149459b35c,
+        type: 3}
+      propertyPath: direction
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5271556923592031647, guid: ef74457eadb94d34a8ef93149459b35c,
+        type: 3}
+      propertyPath: oneStepAllowed
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef74457eadb94d34a8ef93149459b35c, type: 3}
@@ -4665,6 +4910,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Water (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5271556923592031647, guid: ef74457eadb94d34a8ef93149459b35c,
+        type: 3}
+      propertyPath: direction
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5271556923592031647, guid: ef74457eadb94d34a8ef93149459b35c,
+        type: 3}
+      propertyPath: oneStepAllowed
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef74457eadb94d34a8ef93149459b35c, type: 3}
@@ -5188,6 +5443,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Water (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5271556923592031647, guid: ef74457eadb94d34a8ef93149459b35c,
+        type: 3}
+      propertyPath: direction
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5271556923592031647, guid: ef74457eadb94d34a8ef93149459b35c,
+        type: 3}
+      propertyPath: oneStepAllowed
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef74457eadb94d34a8ef93149459b35c, type: 3}
@@ -5768,6 +6033,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Water (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 5271556923592031647, guid: ef74457eadb94d34a8ef93149459b35c,
+        type: 3}
+      propertyPath: direction
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5271556923592031647, guid: ef74457eadb94d34a8ef93149459b35c,
+        type: 3}
+      propertyPath: oneStepAllowed
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef74457eadb94d34a8ef93149459b35c, type: 3}
 --- !u!4 &2097268566 stripped
@@ -5783,6 +6058,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 23564848}
     m_Modifications:
+    - target: {fileID: 399199201289552469, guid: f6d6dc0c4ca23ba4897c1eafbcdef51b,
+        type: 3}
+      propertyPath: artifactTitle
+      value: art_bonfim_txt
+      objectReference: {fileID: 0}
+    - target: {fileID: 399199201289552469, guid: f6d6dc0c4ca23ba4897c1eafbcdef51b,
+        type: 3}
+      propertyPath: artifact
+      value: art_bonfim
+      objectReference: {fileID: 0}
     - target: {fileID: 399199201289552471, guid: f6d6dc0c4ca23ba4897c1eafbcdef51b,
         type: 3}
       propertyPath: m_Name
@@ -6026,6 +6311,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Water
+      objectReference: {fileID: 0}
+    - target: {fileID: 5271556923592031647, guid: ef74457eadb94d34a8ef93149459b35c,
+        type: 3}
+      propertyPath: direction
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5271556923592031647, guid: ef74457eadb94d34a8ef93149459b35c,
+        type: 3}
+      propertyPath: oneStepAllowed
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef74457eadb94d34a8ef93149459b35c, type: 3}

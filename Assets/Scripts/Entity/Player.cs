@@ -35,6 +35,7 @@ public class Player : MonoBehaviour {
         uiManager = FindObjectOfType<UIManager>();
         uiManager.SetBattery(battery);
         SFXVolume = GamePersist.Instance.sfx;
+        animator.SetFloat("Vertical", -1);
     }
 
     private void Update() {

@@ -1584,6 +1584,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 23564848}
     m_Modifications:
+    - target: {fileID: 399199201289552469, guid: f6d6dc0c4ca23ba4897c1eafbcdef51b,
+        type: 3}
+      propertyPath: artifactTitle
+      value: art_ball_txt
+      objectReference: {fileID: 0}
+    - target: {fileID: 399199201289552469, guid: f6d6dc0c4ca23ba4897c1eafbcdef51b,
+        type: 3}
+      propertyPath: artifact
+      value: art_ball
+      objectReference: {fileID: 0}
     - target: {fileID: 399199201289552471, guid: f6d6dc0c4ca23ba4897c1eafbcdef51b,
         type: 3}
       propertyPath: m_Name
@@ -2878,6 +2888,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 23564848}
     m_Modifications:
+    - target: {fileID: 399199201289552469, guid: f6d6dc0c4ca23ba4897c1eafbcdef51b,
+        type: 3}
+      propertyPath: artifactTitle
+      value: art_pacu_txt
+      objectReference: {fileID: 0}
+    - target: {fileID: 399199201289552469, guid: f6d6dc0c4ca23ba4897c1eafbcdef51b,
+        type: 3}
+      propertyPath: artifact
+      value: art_pacu
+      objectReference: {fileID: 0}
     - target: {fileID: 399199201289552471, guid: f6d6dc0c4ca23ba4897c1eafbcdef51b,
         type: 3}
       propertyPath: m_Name
@@ -4597,6 +4617,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 23564848}
     m_Modifications:
+    - target: {fileID: 399199201289552469, guid: f6d6dc0c4ca23ba4897c1eafbcdef51b,
+        type: 3}
+      propertyPath: artifactTitle
+      value: art_onca_txt
+      objectReference: {fileID: 0}
+    - target: {fileID: 399199201289552469, guid: f6d6dc0c4ca23ba4897c1eafbcdef51b,
+        type: 3}
+      propertyPath: artifact
+      value: art_onca
+      objectReference: {fileID: 0}
     - target: {fileID: 399199201289552471, guid: f6d6dc0c4ca23ba4897c1eafbcdef51b,
         type: 3}
       propertyPath: m_Name
@@ -6001,6 +6031,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 23564848}
     m_Modifications:
+    - target: {fileID: 399199201289552469, guid: f6d6dc0c4ca23ba4897c1eafbcdef51b,
+        type: 3}
+      propertyPath: artifactTitle
+      value: art_pote_txt
+      objectReference: {fileID: 0}
+    - target: {fileID: 399199201289552469, guid: f6d6dc0c4ca23ba4897c1eafbcdef51b,
+        type: 3}
+      propertyPath: artifact
+      value: art_pote
+      objectReference: {fileID: 0}
     - target: {fileID: 399199201289552471, guid: f6d6dc0c4ca23ba4897c1eafbcdef51b,
         type: 3}
       propertyPath: m_Name
