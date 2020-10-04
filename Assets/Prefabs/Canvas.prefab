@@ -1011,6 +1011,16 @@ PrefabInstance:
       propertyPath: m_PreserveAspect
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5727360796914029370, guid: 4a56527c06a897a429ffa8593b1a8ec9,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 32
+      objectReference: {fileID: 0}
+    - target: {fileID: 5727360796914029370, guid: 4a56527c06a897a429ffa8593b1a8ec9,
+        type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5727360797786179570, guid: 4a56527c06a897a429ffa8593b1a8ec9,
         type: 3}
       propertyPath: m_LocalPosition.x

@@ -1081,6 +1081,19 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: UIManager, Assembly-CSharp
       objectReference: {fileID: 0}
+    - target: {fileID: 3090729888461306689, guid: 7c99baefb87a7e24c9335ab9f3ae8dbe,
+        type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3090729888461306689, guid: 7c99baefb87a7e24c9335ab9f3ae8dbe,
+        type: 3}
+      propertyPath: m_Text
+      value: "O cocar \xE9 um ornamento de penas, que os povos origin\xE1rios usavam
+        sobre a cabe\xE7a. A depender da tribo, poderia significar status ou ser
+        um adorno. Esse provavelmente tem origem na Regi\xE3o Xingu, que abrigava
+        as maiores reservas ind\xEDgenas do Par\xE1."
+      objectReference: {fileID: 0}
     - target: {fileID: 3090729888502171322, guid: 7c99baefb87a7e24c9335ab9f3ae8dbe,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -1215,6 +1228,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ResetLevel5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3090729889333981064, guid: 7c99baefb87a7e24c9335ab9f3ae8dbe,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5157327333353093598, guid: 7c99baefb87a7e24c9335ab9f3ae8dbe,
         type: 3}
