@@ -62,6 +62,10 @@ public class ScenesManager : MonoBehaviour{
         SceneManager.LoadScene("LevelScene");
     }
 
+    public void LoadCredits() {
+        SceneManager.LoadScene("CreditsScene");
+    }
+
     public void SetPortuguse() {
         FindObjectOfType<ButtonManager>().SelectedPTBR();
         LangResolver.Instance.SetSystemLanguage(SystemLanguage.Portuguese);
